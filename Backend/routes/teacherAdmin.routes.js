@@ -14,6 +14,8 @@ const {
 const isTeacher = require("../middleware/isTeacher");
 const auth = require("../middleware/auth");
 
+// Students need the leaderboard for their dashboard; management endpoints stay teacher-only.
+router.get("/leaderboard", auth, getLeaderboard);
 router.use(auth, isTeacher);
 
 // NOTE: /students/updates must be registered before /students/:studentId,
@@ -23,6 +25,4 @@ router.get("/students/:studentId", getStudentById);
 router.get("/students", getAllStudents);
 
 router.get("/stats", getClassStats);
-router.get("/leaderboard", getLeaderboard);
-
 module.exports = router;

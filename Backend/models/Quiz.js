@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 
-<<<<<<< HEAD
 const questionSchema = new mongoose.Schema({
   questionText: { type: String, required: true },
   options: {
@@ -35,19 +34,7 @@ const quizSchema = new mongoose.Schema(
     },
     isActive: { type: Boolean, default: true },
     createdBy: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
-=======
-const quizSchema = new mongoose.Schema(
-  {
-    title: String,
-    questions: [
-      {
-        question: String,
-        options: [String],
-        correctAnswer: Number, // index of correct option
-      },
-    ],
     points: { type: Number, default: 20 },
->>>>>>> 24e8a0340e41676e48680d1b7e928e58979821f4
   },
   { timestamps: true },
 );

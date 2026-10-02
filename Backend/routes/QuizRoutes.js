@@ -1,6 +1,5 @@
 const express = require("express");
 const router = express.Router();
-<<<<<<< HEAD
 
 const {
   createQuiz,
@@ -30,7 +29,7 @@ router.post("/", protect, isAdmin, createQuiz);
 router.put("/:id", protect, isAdmin, updateQuiz);
 router.patch("/:id/status", protect, isAdmin, toggleQuizStatus);
 router.delete("/:id", protect, isAdmin, deleteQuiz);
-=======
+
 const {
   getQuizzes,
   getQuizById,
@@ -41,6 +40,5 @@ const auth = require("../middleware/auth");
 router.get("/", auth, getQuizzes);
 router.get("/:id", auth, getQuizById);
 router.post("/:id/submit", auth, submitQuiz);
->>>>>>> 24e8a0340e41676e48680d1b7e928e58979821f4
 
 module.exports = router;

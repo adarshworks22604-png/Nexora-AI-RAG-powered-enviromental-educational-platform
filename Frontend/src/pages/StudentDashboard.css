@@ -1,0 +1,1058 @@
+.student-dashboard {
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  overflow-x: clip;
+  padding-bottom: 10rem;
+  background:
+    radial-gradient(
+      ellipse at 14% 8%,
+      rgba(107, 146, 89, 0.2),
+      transparent 30rem
+    ),
+    radial-gradient(
+      ellipse at 88% 48%,
+      rgba(42, 99, 65, 0.22),
+      transparent 38rem
+    ),
+    linear-gradient(155deg, #0d2119 0%, #18352a 46%, #10251d 100%);
+  color: #eff4e9;
+  scroll-behavior: smooth;
+}
+
+.student-dashboard::before,
+.student-dashboard::after {
+  position: absolute;
+  z-index: 0;
+  display: block;
+  width: 12rem;
+  height: 18rem;
+  border: 1px solid rgba(198, 224, 168, 0.13);
+  border-radius: 100% 0 100% 0;
+  background:
+    linear-gradient(
+      132deg,
+      transparent 48.8%,
+      rgba(216, 235, 184, 0.22) 49.5%,
+      transparent 50.4%
+    ),
+    linear-gradient(45deg, rgba(102, 149, 75, 0.08), rgba(176, 207, 132, 0.24));
+  box-shadow:
+    inset 12px -12px 36px rgba(188, 218, 153, 0.06),
+    0 18px 60px rgba(0, 0, 0, 0.12);
+  content: "";
+  pointer-events: none;
+  transform-style: preserve-3d;
+}
+
+.student-dashboard::before {
+  top: 4rem;
+  right: max(2vw, calc((100vw - 1260px) / 2));
+  transform: rotate(31deg) rotateY(-22deg);
+  animation: leaf-drift-one 18s ease-in-out infinite alternate;
+}
+
+.student-dashboard::after {
+  top: 52rem;
+  left: max(1vw, calc((100vw - 1280px) / 2));
+  width: 9rem;
+  height: 14rem;
+  opacity: 0.72;
+  transform: rotate(-42deg) rotateY(24deg);
+  animation: leaf-drift-two 22s ease-in-out infinite alternate;
+}
+
+html:has(.student-dashboard) {
+  scroll-behavior: smooth;
+}
+
+.student-dashboard__container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+}
+
+.student-dashboard__hero {
+  order: 0;
+  max-width: 760px;
+  margin: 0 auto 1.6rem;
+  padding: 1rem 0 1.35rem;
+}
+
+.student-dashboard__hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.student-dashboard__secondary-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #90a58a;
+  background: rgba(255, 255, 255, 0.72);
+  color: #31563a;
+}
+
+.student-dashboard__secondary-link:hover {
+  background: #eaf1e4;
+  color: #203b2b;
+}
+
+.student-dashboard__progress-wrap {
+  order: 5;
+  min-width: 0;
+  scroll-margin-top: 1.5rem;
+}
+
+.student-dashboard__progress-heading {
+  margin: 0 0 1.2rem;
+  padding: 1.5rem 0 0.5rem;
+  border-top: 1px solid #d8e2d2;
+}
+
+.student-dashboard__progress-heading h2 {
+  margin: 0 0 0.35rem;
+  color: #f1f5eb;
+  font-size: 2rem;
+}
+
+.student-dashboard__progress-heading p {
+  color: #d0ddce;
+  font-size: 1.05rem;
+}
+
+.student-dashboard__legacy-content {
+  order: 3;
+  min-width: 0;
+}
+
+.student-dashboard__legacy-content > .grid {
+  min-width: 0;
+}
+
+.student-dashboard__eyebrow,
+.eco-kicker {
+  display: block;
+  margin-bottom: 0.65rem;
+  color: #c3d6a2;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.student-dashboard .dashboard-title {
+  color: #f3f6ed;
+  font-size: 3rem;
+  line-height: 1.12;
+}
+
+.student-dashboard .dashboard-subtitle {
+  color: #d0ddce;
+  font-size: 1.125rem;
+}
+
+.student-dashboard__fact {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  max-width: 680px;
+  margin-top: 1.5rem;
+  padding: 1rem 1.1rem;
+  border-left: 3px solid #7a9d58;
+  background: rgba(255, 255, 255, 0.68);
+  color: #344b35;
+}
+
+.student-dashboard__fact-icon {
+  color: #b5793c;
+  font-size: 1.25rem;
+}
+
+.student-dashboard__fact-label {
+  display: block;
+  margin-bottom: 0.15rem;
+  color: #62734f;
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.student-dashboard__fact p {
+  font-size: 1rem;
+  animation: eco-fact-in 350ms ease both;
+}
+
+.student-dashboard__challenge-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(250px, 0.8fr);
+  align-items: stretch;
+  gap: 1rem;
+  margin: 0 auto 1.2rem;
+}
+
+.student-dashboard__daily-card,
+.student-dashboard__tip-card {
+  min-width: 0;
+  height: 100%;
+  margin: 0;
+  border: 1px solid #dce5d4;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 14px rgba(37, 67, 42, 0.06);
+}
+
+.student-dashboard__daily-card {
+  border-left: 4px solid #6e9b4c;
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.student-dashboard__daily-card.is-completed {
+  border-left-color: #9aa68d;
+  background: #f6f8f2;
+}
+
+.student-dashboard__daily-card .card-body,
+.student-dashboard__tip-card .card-body {
+  height: 100%;
+  padding: 1.25rem;
+}
+
+.student-dashboard__daily-card h2,
+.student-dashboard__tip-card h2 {
+  margin-bottom: 0.5rem;
+}
+
+.student-dashboard__daily-card h4 {
+  overflow-wrap: anywhere;
+}
+
+.student-dashboard__tip-card {
+  background: #edf4e7;
+  border-color: #d8e6ce;
+}
+
+.student-dashboard__tip-card .card-body {
+  align-items: flex-start;
+}
+
+.student-dashboard__empty-challenge .card-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+}
+
+.student-dashboard__empty-challenge h2 {
+  font-size: 1.3rem;
+}
+
+.student-dashboard__empty-challenge p {
+  margin-bottom: 0.75rem;
+  color: #536453;
+}
+
+.student-dashboard__empty-icon {
+  font-size: 1.8rem;
+}
+
+.student-dashboard__text-link {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #315f39;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.student-dashboard__stats-section {
+  margin-bottom: 1.5rem;
+}
+
+.student-dashboard .stats-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 0;
+}
+
+.student-dashboard .stat-card {
+  min-width: 0;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid #e0e7d9;
+  border-radius: 0.7rem;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.student-dashboard .stat-number {
+  color: #315f39;
+}
+
+.student-dashboard__stat-note {
+  margin-top: 0.45rem;
+  color: #62705f;
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+
+.student-dashboard__progress {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.student-dashboard__progress > .card {
+  min-width: 0;
+  border: 1px solid #dfe6d9;
+  border-radius: 0.75rem;
+}
+
+.student-dashboard__progress .card-title {
+  font-size: 1.3rem;
+}
+
+.student-dashboard__progress .flex.gap-4 {
+  flex-wrap: wrap;
+}
+
+.student-dashboard__progress .flex.justify-between {
+  flex-direction: row;
+  align-items: center;
+}
+
+.student-dashboard__progress .card-body > div,
+.student-dashboard__progress .w-full {
+  min-width: 0;
+}
+
+.student-dashboard__progress .flex.items-center.gap-2 {
+  min-width: 0;
+}
+
+.student-dashboard .grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.student-dashboard .grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.student-dashboard .card,
+.student-dashboard .border,
+.student-dashboard h2,
+.student-dashboard h3,
+.student-dashboard p,
+.student-dashboard button {
+  overflow-wrap: anywhere;
+}
+
+.student-dashboard__loading {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.student-dashboard__skeleton-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.student-dashboard__skeleton {
+  border-radius: 0.75rem;
+  background: linear-gradient(100deg, #e6ebdf 20%, #f5f7f1 42%, #e6ebdf 64%);
+  background-size: 220% 100%;
+  animation: eco-skeleton 1.5s ease-in-out infinite;
+}
+
+.student-dashboard__skeleton--challenge {
+  height: 150px;
+}
+.student-dashboard__skeleton--stat {
+  height: 105px;
+}
+.student-dashboard__skeleton--chart {
+  height: 240px;
+}
+.student-dashboard__challenge-skeleton {
+  display: grid;
+  align-content: center;
+  gap: 1rem;
+  min-height: 100px;
+}
+.student-dashboard__skeleton--line {
+  width: 48%;
+  height: 1.2rem;
+}
+.student-dashboard__skeleton--line-short {
+  width: 72%;
+  height: 0.8rem;
+}
+
+.eco-learning {
+  --eco-ink: #f0f4e9;
+  --eco-muted: #d1ddce;
+  --eco-leaf: #a9cb80;
+  color: var(--eco-ink);
+}
+
+.eco-section {
+  position: relative;
+  padding: 2.6rem 0 2.8rem;
+  scroll-margin-top: 2rem;
+}
+
+.eco-section + .eco-section::before {
+  position: absolute;
+  top: 0;
+  left: 8%;
+  width: 84%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(198, 224, 168, 0.5) 18%,
+    rgba(212, 194, 151, 0.4) 82%,
+    transparent
+  );
+  content: "";
+}
+
+.eco-section__heading {
+  max-width: 700px;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+}
+
+.eco-section__heading h2 {
+  margin-bottom: 0.5rem;
+  color: var(--eco-ink);
+  font-size: 2rem;
+}
+
+.eco-section__heading > p {
+  color: var(--eco-muted);
+  font-size: 1.05rem;
+}
+
+.eco-reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.eco-reason-card {
+  padding: 1.1rem;
+  border: 1px solid #e0e7d8;
+  border-radius: 0.7rem;
+  background: rgba(255, 255, 255, 0.8);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
+}
+
+.eco-reason-card:hover,
+.eco-reason-card:focus-visible,
+.eco-sdg-card:hover,
+.eco-sdg-card:focus-visible,
+.eco-awareness-item:hover,
+.eco-awareness-item:focus-visible {
+  transform: perspective(900px) translateY(-5px) rotateX(2deg) rotateY(-1deg);
+  border-color: #b6cba8;
+  box-shadow: 0 8px 20px rgba(37, 67, 42, 0.09);
+}
+
+.eco-reason-card,
+.eco-sdg-card,
+.eco-awareness-item {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.eco-reason-card__icon {
+  display: inline-grid;
+  width: 2.35rem;
+  height: 2.35rem;
+  margin-bottom: 0.7rem;
+  place-items: center;
+  border-radius: 50%;
+  background: #edf3e6;
+  color: #537a42;
+  font-size: 1.25rem;
+}
+
+.eco-reason-card h3,
+.eco-sdg-card h3,
+.eco-awareness-item h3 {
+  margin-bottom: 0.45rem;
+  color: #203b2b;
+  font-size: 1.15rem;
+}
+
+.eco-reason-card p,
+.eco-sdg-card > p,
+.eco-awareness-item p {
+  color: #536453;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.eco-policy-item h3 {
+  color: #eff4e9;
+}
+.eco-policy-item p {
+  color: #d1ddce;
+}
+
+.eco-reason-card p + p {
+  margin-top: 0.4rem;
+}
+
+.eco-sdg-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.eco-sdg-card {
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid #e0e7d8;
+  border-top: 5px solid var(--sdg-color);
+  border-radius: 0.65rem;
+  background: white;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
+}
+
+.eco-sdg-card__top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.7rem;
+  color: var(--sdg-color);
+}
+
+.eco-sdg-card__number {
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1;
+}
+.eco-sdg-card__label {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+}
+.eco-sdg-card h3 {
+  min-height: 2.65em;
+}
+
+.eco-read-more {
+  margin-top: 0.65rem;
+  color: #315f39;
+}
+.eco-read-more summary {
+  width: fit-content;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+.eco-read-more p {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.eco-policy-list {
+  max-width: 880px;
+  margin: 0 auto;
+  border-top: 1px solid #dce4d6;
+}
+
+.eco-policy-item {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) 1.5rem;
+  gap: 0.8rem;
+  align-items: start;
+  padding: 1.15rem 0.5rem;
+  border-bottom: 1px solid #dce4d6;
+}
+
+.eco-policy-item__index {
+  color: #9b754a;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+.eco-policy-item__mark {
+  color: #6c8b54;
+  font-size: 1.25rem;
+}
+.eco-policy-item h3 {
+  margin-bottom: 0.25rem;
+}
+
+.eco-awareness-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.eco-awareness-item {
+  display: flex;
+  gap: 0.8rem;
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid #e0e7d8;
+  border-radius: 0.7rem;
+  background: #fff;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
+}
+
+.eco-awareness-item > span {
+  color: #a16f3d;
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.student-dashboard__cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 2rem 0 0;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  background: linear-gradient(110deg, #24492f, #3d7045);
+  color: white;
+}
+
+.student-dashboard__cta h2 {
+  margin-bottom: 0.2rem;
+  color: white;
+  font-size: 1.5rem;
+}
+.student-dashboard__cta p {
+  color: #e4eddf;
+  font-size: 1rem;
+}
+.student-dashboard__cta .btn {
+  flex: 0 0 auto;
+  background: #e4b66a;
+  border-color: #e4b66a;
+  color: #2b3c29;
+}
+
+.eco-reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition:
+    opacity 500ms ease,
+    transform 500ms ease;
+}
+.eco-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.eco-reason-card.eco-reveal.is-visible:hover,
+.eco-sdg-card.eco-reveal.is-visible:hover,
+.eco-awareness-item.eco-reveal.is-visible:hover {
+  transform: perspective(900px) translateY(-5px) rotateX(2deg) rotateY(-1deg);
+}
+
+@keyframes leaf-drift-one {
+  from {
+    translate: 0 0;
+    rotate: -2deg;
+  }
+  to {
+    translate: -18px 24px;
+    rotate: 5deg;
+  }
+}
+
+@keyframes leaf-drift-two {
+  from {
+    translate: 0 0;
+    rotate: 3deg;
+  }
+  to {
+    translate: 22px -18px;
+    rotate: -5deg;
+  }
+}
+
+.student-dashboard__challenge-row
+  ~ .student-dashboard__stats-section
+  + .student-dashboard__progress,
+.student-dashboard__progress {
+  min-width: 0;
+}
+
+.student-dashboard__progress .card-body > div:first-child {
+  margin-top: 0.5rem;
+}
+
+.student-dashboard .video-module-card,
+.student-dashboard iframe,
+.student-dashboard img {
+  max-width: 100%;
+}
+
+@keyframes eco-skeleton {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+@keyframes eco-fact-in {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1000px) {
+  .eco-reasons-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .eco-sdg-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .eco-awareness-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .student-dashboard {
+    padding-top: 1.4rem;
+    padding-bottom: 8.5rem;
+  }
+  .student-dashboard__hero {
+    margin-bottom: 1rem;
+    padding-top: 0;
+  }
+  .student-dashboard__challenge-row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  .student-dashboard .stats-grid,
+  .student-dashboard__skeleton-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .student-dashboard .grid-2 {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .student-dashboard .grid-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .student-dashboard__progress {
+    gap: 0.85rem;
+    margin-bottom: 1.3rem;
+  }
+  .eco-section {
+    padding: 2rem 0 2.2rem;
+  }
+  .eco-reasons-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .eco-sdg-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .student-dashboard {
+    padding-bottom: 9rem;
+  }
+  .student-dashboard .container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .student-dashboard .dashboard-title {
+    font-size: 1.9rem;
+  }
+  .student-dashboard__fact {
+    margin-top: 1rem;
+    padding: 0.85rem;
+  }
+  .student-dashboard .stats-grid,
+  .student-dashboard__skeleton-grid,
+  .student-dashboard .grid-3,
+  .eco-reasons-grid,
+  .eco-sdg-grid,
+  .eco-awareness-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .student-dashboard .stat-card {
+    padding: 1rem;
+  }
+  .student-dashboard__daily-card .card-body,
+  .student-dashboard__tip-card .card-body {
+    padding: 1rem;
+  }
+  .student-dashboard__daily-card .flex.justify-between {
+    flex-direction: column;
+  }
+  .student-dashboard__progress .flex.justify-between {
+    flex-direction: row;
+  }
+  .student-dashboard__progress .flex.gap-4 {
+    flex-direction: row;
+    gap: 0.65rem;
+  }
+  .student-dashboard__progress .flex.items-center.gap-2 {
+    gap: 0.35rem;
+  }
+  .student-dashboard__progress .text-sm {
+    font-size: 0.9rem;
+  }
+  .eco-section__heading h2 {
+    font-size: 1.7rem;
+  }
+  .eco-reason-card {
+    padding: 1rem;
+  }
+  .eco-sdg-card h3 {
+    min-height: 0;
+  }
+  .eco-policy-item {
+    grid-template-columns: 2.2rem minmax(0, 1fr);
+    gap: 0.4rem;
+  }
+  .eco-policy-item__mark {
+    display: none;
+  }
+  .student-dashboard__cta {
+    align-items: stretch;
+    flex-direction: column;
+    padding: 1.2rem;
+  }
+  .student-dashboard__cta .btn {
+    width: 100%;
+  }
+  .student-dashboard .flex.justify-between {
+    min-width: 0;
+  }
+  .student-dashboard .card-body {
+    min-width: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:has(.student-dashboard) {
+    scroll-behavior: auto;
+  }
+  .student-dashboard__fact p,
+  .student-dashboard__skeleton,
+  .eco-reveal {
+    animation: none;
+    transition: none;
+  }
+  .eco-reveal {
+    opacity: 1;
+    transform: none;
+  }
+  .eco-reason-card:hover,
+  .eco-reason-card:focus-visible,
+  .eco-sdg-card:hover,
+  .eco-sdg-card:focus-visible,
+  .eco-awareness-item:hover,
+  .eco-awareness-item:focus-visible {
+    transform: none;
+  }
+  .student-dashboard::before,
+  .student-dashboard::after {
+    animation: none;
+  }
+}
+
+.eco-learning {
+  order: 1;
+}
+.student-dashboard__cta {
+  order: 4;
+}
+.student-dashboard__cta h2 {
+  font-size: 1.5rem;
+}
+.student-dashboard__progress-wrap {
+  order: 5;
+}
+.student-dashboard__legacy-content {
+  order: 3;
+}
+
+.eco-expand-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 100%;
+  margin-top: 0.65rem;
+  padding: 0.3rem 0;
+  border: 0;
+  background: transparent;
+  color: #315f39;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 800;
+  text-align: left;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.eco-expand-button span {
+  text-decoration: none;
+}
+.eco-expand-panel {
+  margin-top: 0.65rem;
+  color: #5c6a5a;
+}
+.eco-expand-panel h4 {
+  margin: 0.75rem 0 0.25rem;
+  color: #31563a;
+  font: inherit;
+  font-weight: 800;
+}
+.eco-expand-panel p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.eco-awareness-grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.eco-awareness-item:not(:last-child)::after {
+  position: absolute;
+  top: 1.75rem;
+  right: -0.8rem;
+  width: 0.7rem;
+  height: 1px;
+  background: #a8bd98;
+  content: "";
+}
+
+.eco-habits-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.eco-habit-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  min-width: 0;
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid #d7e1d0;
+  color: #e6eee1;
+  font-size: 1rem;
+}
+
+.eco-habit-item span {
+  display: inline-grid;
+  flex: 0 0 1.4rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  place-items: center;
+  border-radius: 50%;
+  background: #e5efdd;
+  color: #315f39;
+  font-weight: 900;
+}
+
+.student-dashboard__legacy-content .card-body,
+.student-dashboard__legacy-content .card-body > *,
+.student-dashboard__progress-wrap > * {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.student-dashboard__legacy-content .card-body > .flex.flex-wrap > div {
+  min-width: 0;
+}
+
+@media (max-width: 1000px) {
+  .eco-habits-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .eco-awareness-item:not(:last-child)::after {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .student-dashboard {
+    padding-bottom: 10rem;
+  }
+  .student-dashboard__hero-actions {
+    flex-wrap: wrap;
+  }
+  .student-dashboard__progress-heading {
+    padding-top: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .student-dashboard {
+    padding-bottom: 10rem;
+  }
+  .eco-habits-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .student-dashboard__hero-actions {
+    flex-direction: column;
+  }
+  .student-dashboard__hero-actions .btn {
+    width: 100%;
+  }
+  .student-dashboard__progress-heading h2 {
+    font-size: 1.7rem;
+  }
+  .student-dashboard__legacy-content .card-body > .flex.flex-wrap > div {
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .eco-awareness-item:not(:last-child)::after {
+    display: none;
+  }
+  .eco-reason-card.eco-reveal.is-visible:hover,
+  .eco-sdg-card.eco-reveal.is-visible:hover,
+  .eco-awareness-item.eco-reveal.is-visible:hover {
+    transform: none;
+  }
+}

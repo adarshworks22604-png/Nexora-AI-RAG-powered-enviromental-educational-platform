@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import "./Chatbot.css";
 
 const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
 
@@ -63,38 +64,86 @@ export default function ChatWidget() {
   };
 
   return (
-    <div style={styles.wrapper}>
+    <div className="chatbot-container">
       {isOpen && (
-        <div style={styles.panel}>
-          <div style={styles.header}>
-            <span>Nexora Assistant</span>
-            <button style={styles.closeBtn} onClick={() => setIsOpen(false)}>
-              ×
+        <section className="chatbot-window" aria-label="Nexora eco assistant">
+          <header className="chatbot-header">
+            <div className="chatbot-brand">
+              <span className="chatbot-mascot" aria-hidden="true">
+                <span className="chatbot-mascot__leaf">🌱</span>
+                <span className="chatbot-mascot__face">•ᴗ•</span>
+              </span>
+              <div>
+                <h2>Nexora Assistant</h2>
+                <p>
+                  <span className="chatbot-status-dot" /> Here to help you grow
+                </p>
+              </div>
+            </div>
+            <button
+              className="chatbot-close"
+              type="button"
+              aria-label="Close Nexora assistant"
+              onClick={() => setIsOpen(false)}
+            >
+              <span aria-hidden="true">×</span>
             </button>
+          </header>
+
+          <div className="chatbot-welcome" aria-hidden="true">
+            <span className="chatbot-welcome__spark">✦</span>
+            <span>Your friendly guide to greener choices.</span>
           </div>
 
-          <div style={styles.messagesArea} ref={scrollRef}>
+          <div
+            className="chatbot-messages"
+            role="log"
+            aria-label="Chat messages"
+            ref={scrollRef}
+          >
             {messages.map((m, i) => (
               <div
                 key={i}
-                style={{
-                  ...styles.bubble,
-                  ...(m.role === "user" ? styles.userBubble : styles.botBubble),
-                }}
+                className={`message-wrapper ${m.role === "user" ? "user" : "bot"}`}
               >
-                {m.text}
+                {m.role !== "user" && (
+                  <span className="chatbot-message-avatar" aria-hidden="true">
+                    🌱
+                  </span>
+                )}
+                <div
+                  className={`message-bubble ${m.role === "user" ? "user-bubble" : "bot-bubble"}`}
+                >
+                  {m.text}
+                </div>
               </div>
             ))}
             {loading && (
-              <div style={{ ...styles.bubble, ...styles.botBubble }}>
-                Typing...
+              <div className="message-wrapper bot">
+                <span className="chatbot-message-avatar" aria-hidden="true">
+                  🌱
+                </span>
+                <div className="message-bubble bot-bubble">
+                  <span
+                    className="chatbot-typing"
+                    aria-label="Assistant is typing"
+                  >
+                    <i />
+                    <i />
+                    <i />
+                  </span>
+                </div>
               </div>
             )}
           </div>
 
-          <div style={styles.inputRow}>
+          <div className="chatbot-input-form">
+            <label className="chatbot-sr-only" htmlFor="nexora-chat-input">
+              Message Nexora assistant
+            </label>
             <textarea
-              style={styles.input}
+              id="nexora-chat-input"
+              className="chatbot-input"
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={handleKeyDown}
@@ -102,120 +151,33 @@ export default function ChatWidget() {
               rows={1}
             />
             <button
-              style={styles.sendBtn}
+              className="chatbot-send"
+              type="button"
+              aria-label="Send message"
               onClick={handleSend}
               disabled={loading}
             >
-              Send
+              <span aria-hidden="true">↑</span>
             </button>
           </div>
-        </div>
+          <p className="chatbot-footer-note">
+            Ask a question. Discover a better habit.
+          </p>
+        </section>
       )}
 
-      <button style={styles.fab} onClick={() => setIsOpen((o) => !o)}>
-        {isOpen ? "×" : "💬"}
+      <button
+        className="chatbot-toggle-btn"
+        type="button"
+        onClick={() => setIsOpen((o) => !o)}
+        aria-label={isOpen ? "Close Nexora assistant" : "Open Nexora assistant"}
+        aria-expanded={isOpen}
+      >
+        <span className="chatbot-toggle-mascot" aria-hidden="true">
+          {isOpen ? "×" : "🌱"}
+        </span>
+        <span>{isOpen ? "Close" : "Ask Eco"}</span>
       </button>
     </div>
   );
 }
-
-const styles = {
-  wrapper: {
-    position: "fixed",
-    bottom: "24px",
-    right: "24px",
-    zIndex: 1000,
-    fontFamily: "system-ui, sans-serif",
-  },
-  fab: {
-    width: "56px",
-    height: "56px",
-    borderRadius: "50%",
-    border: "none",
-    backgroundColor: "#16a34a",
-    color: "white",
-    fontSize: "24px",
-    cursor: "pointer",
-    boxShadow: "0 4px 12px rgba(0,0,0,0.25)",
-  },
-  panel: {
-    width: "340px",
-    height: "460px",
-    backgroundColor: "white",
-    borderRadius: "12px",
-    boxShadow: "0 8px 24px rgba(0,0,0,0.25)",
-    display: "flex",
-    flexDirection: "column",
-    marginBottom: "12px",
-    overflow: "hidden",
-  },
-  header: {
-    backgroundColor: "#16a34a",
-    color: "white",
-    padding: "12px 16px",
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    fontWeight: 600,
-  },
-  closeBtn: {
-    background: "none",
-    border: "none",
-    color: "white",
-    fontSize: "20px",
-    cursor: "pointer",
-    lineHeight: 1,
-  },
-  messagesArea: {
-    flex: 1,
-    padding: "12px",
-    overflowY: "auto",
-    display: "flex",
-    flexDirection: "column",
-    gap: "8px",
-    backgroundColor: "#f9fafb",
-  },
-  bubble: {
-    padding: "8px 12px",
-    borderRadius: "10px",
-    fontSize: "14px",
-    lineHeight: 1.4,
-    maxWidth: "85%",
-    wordWrap: "break-word",
-    whiteSpace: "pre-wrap",
-  },
-  userBubble: {
-    backgroundColor: "#16a34a",
-    color: "white",
-    alignSelf: "flex-end",
-  },
-  botBubble: {
-    backgroundColor: "#e5e7eb",
-    color: "#111827",
-    alignSelf: "flex-start",
-  },
-  inputRow: {
-    display: "flex",
-    gap: "8px",
-    padding: "10px",
-    borderTop: "1px solid #e5e7eb",
-  },
-  input: {
-    flex: 1,
-    resize: "none",
-    padding: "8px",
-    borderRadius: "8px",
-    border: "1px solid #d1d5db",
-    fontSize: "14px",
-    fontFamily: "inherit",
-  },
-  sendBtn: {
-    backgroundColor: "#16a34a",
-    color: "white",
-    border: "none",
-    borderRadius: "8px",
-    padding: "0 16px",
-    cursor: "pointer",
-    fontWeight: 600,
-  },
-};
