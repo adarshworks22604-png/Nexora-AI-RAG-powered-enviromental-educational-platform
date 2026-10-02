@@ -1,0 +1,391 @@
+{
+    "setup_data": {
+        "prompts": [
+            "At what depth should you make a decompression stop, or safety stop, on a typical scuba dive?",
+            "Which of the following is considered classical conditioning?",
+            "Which of these is a semiconductor amplifying device?",
+            "Muscle fiber is constructed of bundles small long organelles called what?",
+            "This element, when overcome with extreme heat and pressure, creates diamonds.",
+            "To the nearest minute, how long does it take for light to travel from the Sun to the Earth?",
+            "The  Islets of Langerhans  is found in which human organ?",
+            "Which chemical element was originally known as Alabamine?",
+            "Folic acid is the synthetic form of which vitamin?",
+            "About how old is Earth?"
+        ],
+        "quizQs": [
+            {
+                "correctAnswerIndex": 0,
+                "explanation": "",
+                "options": [
+                    "15 Feet / 5 Meters",
+                    "50 Feet / 15 Meters",
+                    "75 Feet / 23 Meters",
+                    "25 Feet / 7.5 Meters"
+                ],
+                "questionText": "At what depth should you make a decompression stop, or safety stop, on a typical scuba dive?"
+            },
+            {
+                "correctAnswerIndex": 1,
+                "explanation": "",
+                "options": [
+                    "Harlow s monkey experiments",
+                    "Pavlov s dog experiments",
+                    "Schr dinger s cat experiment",
+                    "Skinner box experiment"
+                ],
+                "questionText": "Which of the following is considered classical conditioning?"
+            },
+            {
+                "correctAnswerIndex": 1,
+                "explanation": "",
+                "options": [
+                    "tube",
+                    "transistor",
+                    "diode",
+                    "P-N junction"
+                ],
+                "questionText": "Which of these is a semiconductor amplifying device?"
+            },
+            {
+                "correctAnswerIndex": 3,
+                "explanation": "",
+                "options": [
+                    "Myocardium",
+                    "Epimysium",
+                    "Myofiaments",
+                    "Myofibrils"
+                ],
+                "questionText": "Muscle fiber is constructed of bundles small long organelles called what?"
+            },
+            {
+                "questionText": "This element, when overcome with extreme heat and pressure, creates diamonds.",
+                "correctAnswerIndex": 2,
+                "explanation": "",
+                "options": [
+                    "Oxygen",
+                    "Nitrogen",
+                    "Carbon",
+                    "Hydrogen"
+                ]
+            },
+            {
+                "correctAnswerIndex": 0,
+                "explanation": "",
+                "options": [
+                    "8 Minutes",
+                    "2 Minutes",
+                    "12 Minutes",
+                    "6 Minutes"
+                ],
+                "questionText": "To the nearest minute, how long does it take for light to travel from the Sun to the Earth?"
+            },
+            {
+                "correctAnswerIndex": 2,
+                "explanation": "",
+                "options": [
+                    "Kidney",
+                    "Liver",
+                    "Pancreas",
+                    "Brain"
+                ],
+                "questionText": "The  Islets of Langerhans  is found in which human organ?"
+            },
+            {
+                "correctAnswerIndex": 0,
+                "explanation": "",
+                "options": [
+                    "Astatine",
+                    "Selenium",
+                    "Molybdenum",
+                    "Antimony"
+                ],
+                "questionText": "Which chemical element was originally known as Alabamine?"
+            },
+            {
+                "explanation": "",
+                "options": [
+                    "Vitamin D",
+                    "Vitamin B",
+                    "Vitamin A",
+                    "Vitamin C"
+                ],
+                "questionText": "Folic acid is the synthetic form of which vitamin?",
+                "correctAnswerIndex": 1
+            },
+            {
+                "questionText": "About how old is Earth?",
+                "correctAnswerIndex": 1,
+                "explanation": "",
+                "options": [
+                    "5.5 Billion Years",
+                    "4.5 Billion Years",
+                    "2.5 Billion Years",
+                    "3.5 Billion Years"
+                ]
+            }
+        ],
+        "seedQuizzes": [
+            {
+                "id": "6abfa3b548d60d2111d3b017",
+                "n": 3
+            },
+            {
+                "id": "6abfa3b548d60d2111d3b01b",
+                "n": 3
+            }
+        ],
+        "tokens": {
+            "teacher": [
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhM2I0NDhkNjBkMjExMWQzYjAxMyIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQ0MTgwLCJleHAiOjE3OTEwMzA1ODB9.X2AKjUWA6nxnsniMyXx90SW6__iRvCA7vEU8mYcuuGw",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhM2I0NDhkNjBkMjExMWQzYjAxNCIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQ0MTgwLCJleHAiOjE3OTEwMzA1ODB9.vK8IiTRx6mFUExPiTMUrikKTWU9bW1oSd5ecmDb89nw",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhM2I0NDhkNjBkMjExMWQzYjAxNSIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQ0MTgxLCJleHAiOjE3OTEwMzA1ODF9.f6yBE3rgLkfe1_U9K76unS59Y8bkLxUs4STbuFzvhIQ",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhM2I1NDhkNjBkMjExMWQzYjAxNiIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQ0MTgxLCJleHAiOjE3OTEwMzA1ODF9.S5H_FznqxECdL8afzWf0J9QDp1Q61PESpxFs6UZZEnM"
+            ],
+            "admin": [
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhN2M0N2YyZTNmYmM2ZmRiYzkxYzdmMyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc5MDk0NDE4MSwiZXhwIjoxNzkxMDMwNTgxfQ.vpZ_ZBdFfAZZXKnWMIa4a5ZSF2kUyJAzU6TBakK9cz8"
+            ],
+            "student": [
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhM2IxNDhkNjBkMjExMWQzYjAwOSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MTc4LCJleHAiOjE3OTEwMzA1Nzh9.gPoEivtMCKQKFjJbYYzTHMzjFTKGVAs_gJ6R-k57suQ",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhM2IyNDhkNjBkMjExMWQzYjAwYSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MTc4LCJleHAiOjE3OTEwMzA1Nzh9.19yvUrUu7ieUwElXx2TeCxQSb0LgAK_LTYYSMwqcXVI",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhM2IyNDhkNjBkMjExMWQzYjAwYiIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MTc4LCJleHAiOjE3OTEwMzA1Nzh9.i4E_aNqhxZZq_vBe3Fh6IYk749MeunsgyqdpYQDRtpw",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhM2IyNDhkNjBkMjExMWQzYjAwYyIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MTc4LCJleHAiOjE3OTEwMzA1Nzh9.ep0yhQR8gjnBwKPJ7BBkedO0UdM4UWcE_y_6HXFjwvs",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhM2IzNDhkNjBkMjExMWQzYjAwZCIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MTc5LCJleHAiOjE3OTEwMzA1Nzl9.Or1cFzCY1j1ThIIOFwjnY4g_2dhDILXQHU3KiFBq6x0",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhM2IzNDhkNjBkMjExMWQzYjAwZSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MTc5LCJleHAiOjE3OTEwMzA1Nzl9.gV9DtY_PABQI3J8t6WADBCo7wX3a4uR7fTqqCRpSXik",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhM2IzNDhkNjBkMjExMWQzYjAwZiIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MTc5LCJleHAiOjE3OTEwMzA1Nzl9.fGlbkYRhHspJpcJCiwjN1U4H6EzgFFDDZ0oJrET9TIU",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhM2IzNDhkNjBkMjExMWQzYjAxMCIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MTc5LCJleHAiOjE3OTEwMzA1Nzl9.OOcWmJvrZR14OjXPcmKUyh5eiXLumnPByLHmrOj9mFo",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhM2IzNDhkNjBkMjExMWQzYjAxMSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MTgwLCJleHAiOjE3OTEwMzA1ODB9.qMrA6SNqUisKa0PeTUOV4Rrp_AHKA9AiimU2f3VNF54",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhM2I0NDhkNjBkMjExMWQzYjAxMiIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MTgwLCJleHAiOjE3OTEwMzA1ODB9.Ore5Ov6ceTYpEOrNvNHW77El0NH0dW8AHBmSEQJZbHY"
+            ]
+        }
+    },
+    "root_group": {
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+                "admin /api/admin/stats": {
+                    "name": "admin /api/admin/stats",
+                    "path": "::admin /api/admin/stats",
+                    "id": "30f2a613388b50c6023671763860c597",
+                    "passes": 19,
+                    "fails": 0
+                },
+                "student /api/tasks": {
+                    "id": "ee1eafbe4e85f43400f483337b4f7416",
+                    "passes": 556,
+                    "fails": 0,
+                    "name": "student /api/tasks",
+                    "path": "::student /api/tasks"
+                },
+                "teacher /api/tasks": {
+                    "name": "teacher /api/tasks",
+                    "path": "::teacher /api/tasks",
+                    "id": "13cac566c8ba19f1aae50b83810c23a7",
+                    "passes": 304,
+                    "fails": 0
+                },
+                "teacher /api/users/students": {
+                    "path": "::teacher /api/users/students",
+                    "id": "c064308b196d1ef9f332135cac5a45f8",
+                    "passes": 304,
+                    "fails": 0,
+                    "name": "teacher /api/users/students"
+                },
+                "student /api/quizzes": {
+                    "name": "student /api/quizzes",
+                    "path": "::student /api/quizzes",
+                    "id": "3ad2603ac7adff2dd61a82915c385298",
+                    "passes": 556,
+                    "fails": 0
+                },
+                "admin /api/admin/users": {
+                    "name": "admin /api/admin/users",
+                    "path": "::admin /api/admin/users",
+                    "id": "d39b74bbd090dc494766bb135483a537",
+                    "passes": 19,
+                    "fails": 0
+                },
+                "teacher /api/users/stats": {
+                    "passes": 304,
+                    "fails": 0,
+                    "name": "teacher /api/users/stats",
+                    "path": "::teacher /api/users/stats",
+                    "id": "fb989f18a5fe77243a77d8efdf4d023e"
+                },
+                "student /api/quizzes/attempts/me": {
+                    "name": "student /api/quizzes/attempts/me",
+                    "path": "::student /api/quizzes/attempts/me",
+                    "id": "80c1b2288b315f35a87ded0dd4de9c2c",
+                    "passes": 556,
+                    "fails": 0
+                },
+                "student /api/users/leaderboard": {
+                    "name": "student /api/users/leaderboard",
+                    "path": "::student /api/users/leaderboard",
+                    "id": "477100c5d03af898125852ee8e39e87b",
+                    "passes": 556,
+                    "fails": 0
+                },
+                "admin /api/admin/users/pending": {
+                    "name": "admin /api/admin/users/pending",
+                    "path": "::admin /api/admin/users/pending",
+                    "id": "f85c974ae9c01c44ea31812a5cb7d0c0",
+                    "passes": 19,
+                    "fails": 0
+                },
+                "admin create quiz": {
+                    "name": "admin create quiz",
+                    "path": "::admin create quiz",
+                    "id": "182f4e9380c5a01774b79eb2a7a50689",
+                    "passes": 19,
+                    "fails": 0
+                },
+                "admin delete quiz": {
+                    "name": "admin delete quiz",
+                    "path": "::admin delete quiz",
+                    "id": "7702b016cee9c5e23904d3f674c9fd09",
+                    "passes": 19,
+                    "fails": 0
+                },
+                "student open quiz": {
+                    "name": "student open quiz",
+                    "path": "::student open quiz",
+                    "id": "a8062f26e6059867d9d0e5734d98e194",
+                    "passes": 556,
+                    "fails": 0
+                },
+                "student submit quiz": {
+                    "path": "::student submit quiz",
+                    "id": "4f8d5df5541ef127796706683c1bb18e",
+                    "passes": 556,
+                    "fails": 0,
+                    "name": "student submit quiz"
+                }
+            },
+        "name": ""
+    },
+    "metrics": {
+        "http_req_duration": {
+            "avg": 909.1760638419385,
+            "min": 51.5081,
+            "med": 990.3949,
+            "max": 2174.6875,
+            "p(90)": 1397.525230000016,
+            "p(95)": 1961.7940800000001
+        },
+        "http_reqs": {
+            "count": 4378,
+            "rate": 36.61615391567011
+        },
+        "http_req_receiving": {
+            "avg": 0.568603951576061,
+            "min": 0,
+            "med": 0,
+            "max": 20.0809,
+            "p(90)": 1.3437100000000002,
+            "p(95)": 2.1916449999999954
+        },
+        "iterations": {
+            "rate": 7.351667266302884,
+            "count": 879
+        },
+        "vus": {
+            "value": 1,
+            "min": 0,
+            "max": 65
+        },
+        "data_received": {
+            "count": 12383832,
+            "rate": 103574.30301000475
+        },
+        "iteration_duration": {
+            "avg": 6529.587734015933,
+            "min": 1231.1958,
+            "med": 6904.5572,
+            "max": 11047.9615,
+            "p(90)": 9945.94866,
+            "p(95)": 10007.04048
+        },
+        "http_req_duration{flow:api}": {
+            "p(95)": 1961.90787,
+            "avg": 915.3344782638743,
+            "min": 51.5081,
+            "med": 991.1038,
+            "max": 2174.6875,
+            "p(90)": 1711.004320000032,
+            "thresholds": {
+                "p(95)<1500": true
+            }
+        },
+        "http_req_waiting": {
+            "avg": 908.5997078117881,
+            "min": 44.0022,
+            "med": 989.8223499999999,
+            "max": 2174.6875,
+            "p(90)": 1397.1422200000159,
+            "p(95)": 1961.5039649999999
+        },
+        "vus_max": {
+            "max": 65,
+            "value": 65,
+            "min": 65
+        },
+        "http_req_sending": {
+            "min": 0,
+            "med": 0,
+            "max": 1.2295,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.007752078574691642
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 4378,
+            "thresholds": {
+                "rate<0.05": false
+            },
+            "value": 0
+        },
+        "data_sent": {
+            "count": 1535787,
+            "rate": 12844.817993075663
+        },
+        "http_req_blocked": {
+            "max": 933.6901,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.32538209227958,
+            "min": 0,
+            "med": 0
+        },
+        "checks": {
+            "passes": 4343,
+            "fails": 0,
+            "value": 1
+        },
+        "http_req_connecting": {
+            "avg": 0.12496569209684787,
+            "min": 0,
+            "med": 0,
+            "max": 311.3411,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "http_req_tls_handshaking": {
+            "max": 316.4172,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.11592891731384193,
+            "min": 0,
+            "med": 0
+        },
+        "http_req_duration{expected_response:true}": {
+            "avg": 909.1760638419385,
+            "min": 51.5081,
+            "med": 990.3949,
+            "max": 2174.6875,
+            "p(90)": 1397.525230000016,
+            "p(95)": 1961.7940800000001
+        }
+    }
+}

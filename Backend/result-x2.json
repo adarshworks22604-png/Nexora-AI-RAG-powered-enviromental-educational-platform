@@ -1,0 +1,391 @@
+{
+    "setup_data": {
+        "seedQuizzes": [
+            {
+                "id": "6abfa32a48d60d2111d3a512",
+                "n": 3
+            },
+            {
+                "id": "6abfa32a48d60d2111d3a516",
+                "n": 3
+            }
+        ],
+        "tokens": {
+            "admin": [
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhN2M0N2YyZTNmYmM2ZmRiYzkxYzdmMyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc5MDk0NDA0MiwiZXhwIjoxNzkxMDMwNDQyfQ.puLQ6-pV-N-fYT7cGI5QxNDuBx0MdGOG4uUuU77a4XA"
+            ],
+            "student": [
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMzI3NDhkNjBkMjExMWQzYTUwNCIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MDM5LCJleHAiOjE3OTEwMzA0Mzl9.xxfzfSKE5WNUrYl6j2CGw7V6lXUXzIU8AcJccRPof-Y",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMzI3NDhkNjBkMjExMWQzYTUwNSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MDM5LCJleHAiOjE3OTEwMzA0Mzl9.zWSrzVlzQaX_8W3_EwleWTHLPTwWn83olYePDhZy30Q",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMzI3NDhkNjBkMjExMWQzYTUwNiIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MDM5LCJleHAiOjE3OTEwMzA0Mzl9.IPRwhlxonNinx8TLbWaQ0R7GC4aiO8xcnizyVMlMqh4",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMzI3NDhkNjBkMjExMWQzYTUwNyIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MDM5LCJleHAiOjE3OTEwMzA0Mzl9.e_OQiLbDozZF44uSOk5a2Emk43aW6UsUbWjZESLCRwc",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMzI4NDhkNjBkMjExMWQzYTUwOCIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MDQwLCJleHAiOjE3OTEwMzA0NDB9.paAC4fsyu50KsMIlhuzA2rz7Ko7hks_DpEMnGbzjeH4",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMzI4NDhkNjBkMjExMWQzYTUwOSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MDQwLCJleHAiOjE3OTEwMzA0NDB9.9dfonV1ygEt9-Pckk_TsnMwr2dIqGS1KNA6l7ClVvZc",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMzI4NDhkNjBkMjExMWQzYTUwYSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MDQwLCJleHAiOjE3OTEwMzA0NDB9.S63p89dzEbR664RmU-SfK6jPSQMDastevUEE5VdLiyE",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMzI4NDhkNjBkMjExMWQzYTUwYiIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MDQwLCJleHAiOjE3OTEwMzA0NDB9.hFBW6LDTQpKC0Vlsu4jYiblWO24NwvjjMfupKA74RY0",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMzI4NDhkNjBkMjExMWQzYTUwYyIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MDQxLCJleHAiOjE3OTEwMzA0NDF9.UliD4d-ZCw0wQgICjX0meFLBDiSojkJPofX8kFUo11I",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMzI5NDhkNjBkMjExMWQzYTUwZCIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MDQxLCJleHAiOjE3OTEwMzA0NDF9.0L5dXv6CUSroLOJPfoG0rBVJhOEk0L1M5r939WnQQFk"
+            ],
+            "teacher": [
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMzI5NDhkNjBkMjExMWQzYTUwZSIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQ0MDQxLCJleHAiOjE3OTEwMzA0NDF9.tkMV6tZVYDhRQTn0k7o6chZ8dG7jkzlHUiPibWKE6x4",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMzI5NDhkNjBkMjExMWQzYTUwZiIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQ0MDQxLCJleHAiOjE3OTEwMzA0NDF9.VLoOy0sKUTXyjUnHfrMoi-Blh2pM6Tq0X0m-vRGCRlM",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMzI5NDhkNjBkMjExMWQzYTUxMCIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQ0MDQyLCJleHAiOjE3OTEwMzA0NDJ9.t80qViYrV7qZTAocxxkpAwIe099I4frca4aL4edDL5A",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMzJhNDhkNjBkMjExMWQzYTUxMSIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQ0MDQyLCJleHAiOjE3OTEwMzA0NDJ9.i4XcSy9EqbQ1ABfYfWbLOtnuQ_1OxmDHGuEN1cogYho"
+            ]
+        },
+        "prompts": [
+            "What do you study if you are studying entomology?",
+            "The asteroid belt is located between which two planets?",
+            "What is the official name of the star located closest to the North Celestial Pole?",
+            "What is the standard SI unit for electric current?",
+            "Which planet in the Solar System is the closest to the Sun?",
+            "Which of the following is NOT a real element?",
+            "What is the standard SI unit for luminous intensity?",
+            "Burning which of these metals will produce a bright white flame?",
+            "In the Scoville scale, what is the hottest chemical?",
+            "Which one of these is scientific term for  Brain Freeze ?"
+        ],
+        "quizQs": [
+            {
+                "correctAnswerIndex": 0,
+                "explanation": "",
+                "options": [
+                    "Insects",
+                    "the Brain",
+                    "Humans",
+                    "Fish"
+                ],
+                "questionText": "What do you study if you are studying entomology?"
+            },
+            {
+                "options": [
+                    "Mars and Jupiter",
+                    "Mercury and Venus",
+                    "Jupiter and Saturn",
+                    "Earth and Mars"
+                ],
+                "questionText": "The asteroid belt is located between which two planets?",
+                "correctAnswerIndex": 0,
+                "explanation": ""
+            },
+            {
+                "correctAnswerIndex": 2,
+                "explanation": "",
+                "options": [
+                    "Eridanus",
+                    "Gamma Cephei",
+                    "Polaris",
+                    "Iota Cephei"
+                ],
+                "questionText": "What is the official name of the star located closest to the North Celestial Pole?"
+            },
+            {
+                "correctAnswerIndex": 0,
+                "explanation": "",
+                "options": [
+                    "Ampere",
+                    "Volt",
+                    "Watt",
+                    "Ohm"
+                ],
+                "questionText": "What is the standard SI unit for electric current?"
+            },
+            {
+                "correctAnswerIndex": 2,
+                "explanation": "",
+                "options": [
+                    "Earth",
+                    "Venus",
+                    "Mercury",
+                    "Mars"
+                ],
+                "questionText": "Which planet in the Solar System is the closest to the Sun?"
+            },
+            {
+                "options": [
+                    "Lutetium",
+                    "Vitrainium",
+                    "Hassium",
+                    "Praseodymium"
+                ],
+                "questionText": "Which of the following is NOT a real element?",
+                "correctAnswerIndex": 1,
+                "explanation": ""
+            },
+            {
+                "correctAnswerIndex": 1,
+                "explanation": "",
+                "options": [
+                    "Coulomb",
+                    "Candela",
+                    "Faraday",
+                    "Lumen"
+                ],
+                "questionText": "What is the standard SI unit for luminous intensity?"
+            },
+            {
+                "explanation": "",
+                "options": [
+                    "Copper",
+                    "Lithium",
+                    "Lead",
+                    "Magnesium"
+                ],
+                "questionText": "Burning which of these metals will produce a bright white flame?",
+                "correctAnswerIndex": 3
+            },
+            {
+                "correctAnswerIndex": 2,
+                "explanation": "",
+                "options": [
+                    "Capsaicin",
+                    "Dihydrocapsaicin",
+                    "Resiniferatoxin",
+                    "Tinyatoxin"
+                ],
+                "questionText": "In the Scoville scale, what is the hottest chemical?"
+            },
+            {
+                "correctAnswerIndex": 0,
+                "explanation": "",
+                "options": [
+                    "Sphenopalatine Ganglioneuralgia",
+                    "Hyacinthoides Italica",
+                    "Amblyomma Americanum",
+                    "Amaranthus Retroflexus"
+                ],
+                "questionText": "Which one of these is scientific term for  Brain Freeze ?"
+            }
+        ]
+    },
+    "root_group": {
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+                "admin /api/admin/stats": {
+                    "passes": 28,
+                    "fails": 0,
+                    "name": "admin /api/admin/stats",
+                    "path": "::admin /api/admin/stats",
+                    "id": "30f2a613388b50c6023671763860c597"
+                },
+                "teacher /api/tasks": {
+                    "id": "13cac566c8ba19f1aae50b83810c23a7",
+                    "passes": 227,
+                    "fails": 0,
+                    "name": "teacher /api/tasks",
+                    "path": "::teacher /api/tasks"
+                },
+                "student /api/tasks": {
+                    "name": "student /api/tasks",
+                    "path": "::student /api/tasks",
+                    "id": "ee1eafbe4e85f43400f483337b4f7416",
+                    "passes": 474,
+                    "fails": 0
+                },
+                "teacher /api/users/students": {
+                    "name": "teacher /api/users/students",
+                    "path": "::teacher /api/users/students",
+                    "id": "c064308b196d1ef9f332135cac5a45f8",
+                    "passes": 227,
+                    "fails": 0
+                },
+                "student /api/quizzes": {
+                    "name": "student /api/quizzes",
+                    "path": "::student /api/quizzes",
+                    "id": "3ad2603ac7adff2dd61a82915c385298",
+                    "passes": 474,
+                    "fails": 0
+                },
+                "teacher /api/users/stats": {
+                    "name": "teacher /api/users/stats",
+                    "path": "::teacher /api/users/stats",
+                    "id": "fb989f18a5fe77243a77d8efdf4d023e",
+                    "passes": 227,
+                    "fails": 0
+                },
+                "admin /api/admin/users": {
+                    "name": "admin /api/admin/users",
+                    "path": "::admin /api/admin/users",
+                    "id": "d39b74bbd090dc494766bb135483a537",
+                    "passes": 28,
+                    "fails": 0
+                },
+                "admin /api/admin/users/pending": {
+                    "name": "admin /api/admin/users/pending",
+                    "path": "::admin /api/admin/users/pending",
+                    "id": "f85c974ae9c01c44ea31812a5cb7d0c0",
+                    "passes": 28,
+                    "fails": 0
+                },
+                "student /api/quizzes/attempts/me": {
+                    "name": "student /api/quizzes/attempts/me",
+                    "path": "::student /api/quizzes/attempts/me",
+                    "id": "80c1b2288b315f35a87ded0dd4de9c2c",
+                    "passes": 474,
+                    "fails": 0
+                },
+                "student /api/users/leaderboard": {
+                    "passes": 474,
+                    "fails": 0,
+                    "name": "student /api/users/leaderboard",
+                    "path": "::student /api/users/leaderboard",
+                    "id": "477100c5d03af898125852ee8e39e87b"
+                },
+                "student open quiz": {
+                    "path": "::student open quiz",
+                    "id": "a8062f26e6059867d9d0e5734d98e194",
+                    "passes": 474,
+                    "fails": 0,
+                    "name": "student open quiz"
+                },
+                "student submit quiz": {
+                    "passes": 474,
+                    "fails": 0,
+                    "name": "student submit quiz",
+                    "path": "::student submit quiz",
+                    "id": "4f8d5df5541ef127796706683c1bb18e"
+                },
+                "admin create quiz": {
+                    "name": "admin create quiz",
+                    "path": "::admin create quiz",
+                    "id": "182f4e9380c5a01774b79eb2a7a50689",
+                    "passes": 28,
+                    "fails": 0
+                },
+                "admin delete quiz": {
+                    "passes": 28,
+                    "fails": 0,
+                    "name": "admin delete quiz",
+                    "path": "::admin delete quiz",
+                    "id": "7702b016cee9c5e23904d3f674c9fd09"
+                }
+            },
+        "name": ""
+    },
+    "metrics": {
+        "http_req_waiting": {
+            "p(95)": 947.1273,
+            "avg": 386.43269708108113,
+            "min": 45.9249,
+            "med": 112.61415,
+            "max": 1176.928,
+            "p(90)": 925.0861
+        },
+        "http_req_tls_handshaking": {
+            "max": 314.2025,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.14000254054054054,
+            "min": 0,
+            "med": 0
+        },
+        "http_req_connecting": {
+            "avg": 0.15288856756756755,
+            "min": 0,
+            "med": 0,
+            "max": 400.0384,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "data_received": {
+            "count": 10768598,
+            "rate": 91138.22038985141
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 3700,
+            "thresholds": {
+                "rate<0.05": false
+            },
+            "value": 0
+        },
+        "vus_max": {
+            "max": 33,
+            "value": 33,
+            "min": 33
+        },
+        "http_req_duration{expected_response:true}": {
+            "p(90)": 925.97707,
+            "p(95)": 947.4429149999999,
+            "avg": 387.3790184594599,
+            "min": 46.3137,
+            "med": 113.62020000000001,
+            "max": 1177.4179
+        },
+        "iterations": {
+            "count": 729,
+            "rate": 6.169769051105972
+        },
+        "http_req_receiving": {
+            "p(90)": 2.2847599999999986,
+            "p(95)": 4.180259999999996,
+            "avg": 0.9339919729729738,
+            "min": 0,
+            "med": 0.4007,
+            "max": 16.0075
+        },
+        "data_sent": {
+            "rate": 11050.064833862829,
+            "count": 1305640
+        },
+        "http_req_duration": {
+            "med": 113.62020000000001,
+            "max": 1177.4179,
+            "p(90)": 925.97707,
+            "p(95)": 947.4429149999999,
+            "avg": 387.3790184594599,
+            "min": 46.3137
+        },
+        "http_req_sending": {
+            "med": 0,
+            "max": 8.9245,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.012329405405405407,
+            "min": 0
+        },
+        "vus": {
+            "min": 0,
+            "max": 33,
+            "value": 0
+        },
+        "http_reqs": {
+            "count": 3700,
+            "rate": 31.31432851727311
+        },
+        "checks": {
+            "passes": 3665,
+            "fails": 0,
+            "value": 1
+        },
+        "http_req_blocked": {
+            "max": 1030.1203,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.38804621621621616,
+            "min": 0,
+            "med": 0
+        },
+        "iteration_duration": {
+            "med": 4000.6705,
+            "max": 6933.9323,
+            "p(90)": 5962.85716,
+            "p(95)": 6037.46036,
+            "avg": 3971.2188824417017,
+            "min": 1211.0808
+        },
+        "http_req_duration{flow:api}": {
+            "min": 46.3137,
+            "med": 113.4698,
+            "max": 1177.4179,
+            "p(90)": 926.1763000000001,
+            "p(95)": 947.86682,
+            "avg": 389.81680840382046,
+            "thresholds": {
+                "p(95)<1500": false
+            }
+        }
+    }
+}

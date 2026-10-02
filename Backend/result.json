@@ -1,0 +1,382 @@
+{
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+                "admin /api/admin/stats": {
+                    "id": "30f2a613388b50c6023671763860c597",
+                    "passes": 44,
+                    "fails": 0,
+                    "name": "admin /api/admin/stats",
+                    "path": "::admin /api/admin/stats"
+                },
+                "teacher /api/tasks": {
+                    "id": "13cac566c8ba19f1aae50b83810c23a7",
+                    "passes": 156,
+                    "fails": 0,
+                    "name": "teacher /api/tasks",
+                    "path": "::teacher /api/tasks"
+                },
+                "student /api/tasks": {
+                    "path": "::student /api/tasks",
+                    "id": "ee1eafbe4e85f43400f483337b4f7416",
+                    "passes": 387,
+                    "fails": 0,
+                    "name": "student /api/tasks"
+                },
+                "admin /api/admin/users": {
+                    "fails": 0,
+                    "name": "admin /api/admin/users",
+                    "path": "::admin /api/admin/users",
+                    "id": "d39b74bbd090dc494766bb135483a537",
+                    "passes": 44
+                },
+                "teacher /api/users/students": {
+                    "fails": 0,
+                    "name": "teacher /api/users/students",
+                    "path": "::teacher /api/users/students",
+                    "id": "c064308b196d1ef9f332135cac5a45f8",
+                    "passes": 156
+                },
+                "student /api/quizzes": {
+                    "id": "3ad2603ac7adff2dd61a82915c385298",
+                    "passes": 387,
+                    "fails": 0,
+                    "name": "student /api/quizzes",
+                    "path": "::student /api/quizzes"
+                },
+                "admin /api/admin/users/pending": {
+                    "id": "f85c974ae9c01c44ea31812a5cb7d0c0",
+                    "passes": 44,
+                    "fails": 0,
+                    "name": "admin /api/admin/users/pending",
+                    "path": "::admin /api/admin/users/pending"
+                },
+                "teacher /api/users/stats": {
+                    "name": "teacher /api/users/stats",
+                    "path": "::teacher /api/users/stats",
+                    "id": "fb989f18a5fe77243a77d8efdf4d023e",
+                    "passes": 156,
+                    "fails": 0
+                },
+                "student /api/quizzes/attempts/me": {
+                    "name": "student /api/quizzes/attempts/me",
+                    "path": "::student /api/quizzes/attempts/me",
+                    "id": "80c1b2288b315f35a87ded0dd4de9c2c",
+                    "passes": 387,
+                    "fails": 0
+                },
+                "student /api/users/leaderboard": {
+                    "name": "student /api/users/leaderboard",
+                    "path": "::student /api/users/leaderboard",
+                    "id": "477100c5d03af898125852ee8e39e87b",
+                    "passes": 387,
+                    "fails": 0
+                },
+                "admin create quiz": {
+                    "name": "admin create quiz",
+                    "path": "::admin create quiz",
+                    "id": "182f4e9380c5a01774b79eb2a7a50689",
+                    "passes": 44,
+                    "fails": 0
+                },
+                "admin delete quiz": {
+                    "fails": 0,
+                    "name": "admin delete quiz",
+                    "path": "::admin delete quiz",
+                    "id": "7702b016cee9c5e23904d3f674c9fd09",
+                    "passes": 44
+                },
+                "student open quiz": {
+                    "name": "student open quiz",
+                    "path": "::student open quiz",
+                    "id": "a8062f26e6059867d9d0e5734d98e194",
+                    "passes": 387,
+                    "fails": 0
+                },
+                "student submit quiz": {
+                    "name": "student submit quiz",
+                    "path": "::student submit quiz",
+                    "id": "4f8d5df5541ef127796706683c1bb18e",
+                    "passes": 387,
+                    "fails": 0
+                }
+            }
+    },
+    "metrics": {
+        "http_req_duration{expected_response:true}": {
+            "avg": 116.45673855302256,
+            "min": 39.8727,
+            "med": 81.1261,
+            "max": 744.6552,
+            "p(90)": 153.12366,
+            "p(95)": 388.58779999999996
+        },
+        "data_sent": {
+            "rate": 9271.57829201132,
+            "count": 1082229
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 3027,
+            "thresholds": {
+                "rate<0.05": false
+            },
+            "value": 0
+        },
+        "http_req_receiving": {
+            "avg": 1.6382095804426797,
+            "min": 0,
+            "med": 0,
+            "max": 16.7958,
+            "p(90)": 5.970600000000001,
+            "p(95)": 9.552879999999993
+        },
+        "vus": {
+            "value": 2,
+            "min": 0,
+            "max": 17
+        },
+        "http_req_duration": {
+            "med": 81.1261,
+            "max": 744.6552,
+            "p(90)": 153.12366,
+            "p(95)": 388.58779999999996,
+            "avg": 116.45673855302256,
+            "min": 39.8727
+        },
+        "vus_max": {
+            "value": 17,
+            "min": 17,
+            "max": 17
+        },
+        "http_req_duration{flow:api}": {
+            "avg": 116.10923614617921,
+            "min": 39.8727,
+            "med": 80.75215,
+            "max": 744.6552,
+            "p(90)": 151.02136,
+            "p(95)": 388.9983599999998,
+            "thresholds": {
+                "p(95)<1500": false
+            }
+        },
+        "http_req_sending": {
+            "med": 0,
+            "max": 11.982,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.031491080277502484,
+            "min": 0
+        },
+        "data_received": {
+            "rate": 108360.1111305356,
+            "count": 12648381
+        },
+        "http_reqs": {
+            "count": 3027,
+            "rate": 25.932651490505485
+        },
+        "http_req_waiting": {
+            "med": 79.3746,
+            "max": 744.6552,
+            "p(90)": 151.39174,
+            "p(95)": 388.33556999999996,
+            "avg": 114.7870378923023,
+            "min": 39.8727
+        },
+        "checks": {
+            "passes": 3010,
+            "fails": 0,
+            "value": 1
+        },
+        "http_req_tls_handshaking": {
+            "med": 0,
+            "max": 324.0006,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.15185332011892963,
+            "min": 0
+        },
+        "iterations": {
+            "count": 587,
+            "rate": 5.028895416229508
+        },
+        "http_req_blocked": {
+            "avg": 0.4366240832507434,
+            "min": 0,
+            "med": 0,
+            "max": 950.5511,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "http_req_connecting": {
+            "p(95)": 0,
+            "avg": 0.1530897918731417,
+            "min": 0,
+            "med": 0,
+            "max": 319.6801,
+            "p(90)": 0
+        },
+        "iteration_duration": {
+            "max": 4783.5154,
+            "p(90)": 3693.1405799999998,
+            "p(95)": 3925.2311299999997,
+            "avg": 2576.6842555366275,
+            "min": 1183.7726,
+            "med": 2567.1954
+        }
+    },
+    "setup_data": {
+        "prompts": [
+            "How many degrees Fahrenheit is 100 degrees Celsius? ",
+            "Which noble gas has the lowest atomic number?",
+            "Which of the following liquids is least viscous? Assume temperature is 25 C.",
+            "When was the first mammal successfully cloned?",
+            "The core of the Sun can reach which temperature?",
+            "What is the mathematical formula of Ohm s law?",
+            "What name is given to all baby marsupials?",
+            "Which part of the body does glaucoma affect?",
+            "Autosomal-dominant Compelling Helio-Ophthalmic Outburst syndrome is the need to do what when seeing the Sun?",
+            "The Western Lowland Gorilla is scientifically know as?"
+        ],
+        "quizQs": [
+            {
+                "correctAnswerIndex": 1,
+                "explanation": "",
+                "options": [
+                    "451",
+                    "212",
+                    "100",
+                    "326"
+                ],
+                "questionText": "How many degrees Fahrenheit is 100 degrees Celsius? "
+            },
+            {
+                "correctAnswerIndex": 1,
+                "explanation": "",
+                "options": [
+                    "Krypton",
+                    "Helium",
+                    "Neon",
+                    "Argon"
+                ],
+                "questionText": "Which noble gas has the lowest atomic number?"
+            },
+            {
+                "correctAnswerIndex": 0,
+                "explanation": "",
+                "options": [
+                    "Acetone",
+                    "Benzene",
+                    "Mercury",
+                    "Water"
+                ],
+                "questionText": "Which of the following liquids is least viscous? Assume temperature is 25 C."
+            },
+            {
+                "correctAnswerIndex": 2,
+                "explanation": "",
+                "options": [
+                    "1985",
+                    "1999",
+                    "1996",
+                    "2009"
+                ],
+                "questionText": "When was the first mammal successfully cloned?"
+            },
+            {
+                "correctAnswerIndex": 2,
+                "explanation": "",
+                "options": [
+                    "Absolute Zero (Both F and C)",
+                    "8  Billion F ( 4.4 Billion C)",
+                    "27  Million F (15  Million C)",
+                    "938,000  F (521093.3  C)"
+                ],
+                "questionText": "The core of the Sun can reach which temperature?"
+            },
+            {
+                "correctAnswerIndex": 3,
+                "explanation": "",
+                "options": [
+                    "R = V*I",
+                    "I = V*R",
+                    "V = I / R",
+                    "V = I*R"
+                ],
+                "questionText": "What is the mathematical formula of Ohm s law?"
+            },
+            {
+                "correctAnswerIndex": 3,
+                "explanation": "",
+                "options": [
+                    "Cub",
+                    "Calf",
+                    "Pup",
+                    "Joey"
+                ],
+                "questionText": "What name is given to all baby marsupials?"
+            },
+            {
+                "questionText": "Which part of the body does glaucoma affect?",
+                "correctAnswerIndex": 0,
+                "explanation": "",
+                "options": [
+                    "Eyes",
+                    "Blood",
+                    "Throat",
+                    "Stomach"
+                ]
+            },
+            {
+                "questionText": "Autosomal-dominant Compelling Helio-Ophthalmic Outburst syndrome is the need to do what when seeing the Sun?",
+                "correctAnswerIndex": 0,
+                "explanation": "",
+                "options": [
+                    "Sneeze",
+                    "Hiccup",
+                    "Yawn",
+                    "Cough"
+                ]
+            },
+            {
+                "correctAnswerIndex": 0,
+                "explanation": "",
+                "options": [
+                    "Gorilla Gorilla Gorilla",
+                    "Gorilla Gorilla Diehli",
+                    "Gorilla Beringei Beringei",
+                    "Gorilla Beringei Graueri"
+                ],
+                "questionText": "The Western Lowland Gorilla is scientifically know as?"
+            }
+        ],
+        "seedQuizzes": [
+            {
+                "id": "6abf9a4948d60d2111d35220",
+                "n": 3
+            },
+            {
+                "id": "6abf9a4948d60d2111d35224",
+                "n": 3
+            }
+        ],
+        "tokens": {
+            "admin": [
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhN2M0N2YyZTNmYmM2ZmRiYzkxYzdmMyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc5MDk0MTc2OSwiZXhwIjoxNzkxMDI4MTY5fQ.zmf3uEGRYBqmCEX3tx_itmRZwZyCjaqsHQOaoiFZaGw"
+            ],
+            "student": [
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmY5YTQ3NDhkNjBkMjExMWQzNTIxYiIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQxNzY4LCJleHAiOjE3OTEwMjgxNjh9.yZrgSV628vORlNXjhw4uVwv68MBPvBCCG-v-7SSeZFc",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmY5YTQ4NDhkNjBkMjExMWQzNTIxYyIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQxNzY4LCJleHAiOjE3OTEwMjgxNjh9.txAFqC1REr1Ye4E8WpSTBJHd41QMGCbGiO6A7rMVQIM",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmY5YTQ4NDhkNjBkMjExMWQzNTIxZCIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQxNzY4LCJleHAiOjE3OTEwMjgxNjh9.e_Yjt-xC4ETEGk7h7vbZou5CQ7ttC-Ga4lHQdo9hJII"
+            ],
+            "teacher": [
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmY5YTQ4NDhkNjBkMjExMWQzNTIxZSIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQxNzY4LCJleHAiOjE3OTEwMjgxNjh9.kh5wUGyA_pKdA8mcy4GbFnTxqGanoya62BTteLNJctE",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmY5YTQ5NDhkNjBkMjExMWQzNTIxZiIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQxNzY5LCJleHAiOjE3OTEwMjgxNjl9.tIiJ_tGWsKb7VVej1hjL1DVu8zRJQ8oHW_OlMLlgMdg"
+            ]
+        }
+    }
+}

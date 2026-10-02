@@ -1,0 +1,391 @@
+{
+    "setup_data": {
+        "prompts": [
+            "Which element has the highest melting point?",
+            "What is the scientific term for  taste ?",
+            "Human cells typically have how many copies of each gene?",
+            "Down Syndrome is usually caused by an extra copy of which chromosome?",
+            "What is an example of a bacterial pathogen?",
+            "What part of the brain takes its name from the Greek for seahorse?",
+            "At what depth should you make a decompression stop, or safety stop, on a typical scuba dive?",
+            "Which of the following is NOT a word used to describe an earthquake?",
+            "About what percentage of the Earth s surface is water? ",
+            "What is the study of the cells and tissues of plants and animals?"
+        ],
+        "quizQs": [
+            {
+                "correctAnswerIndex": 2,
+                "explanation": "",
+                "options": [
+                    "Tungsten",
+                    "Platinum",
+                    "Carbon",
+                    "Osmium"
+                ],
+                "questionText": "Which element has the highest melting point?"
+            },
+            {
+                "options": [
+                    "Gustatory Perception",
+                    "Somatosensation",
+                    "Auditory Perception",
+                    "Olfaction"
+                ],
+                "questionText": "What is the scientific term for  taste ?",
+                "correctAnswerIndex": 0,
+                "explanation": ""
+            },
+            {
+                "correctAnswerIndex": 1,
+                "explanation": "",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "questionText": "Human cells typically have how many copies of each gene?"
+            },
+            {
+                "correctAnswerIndex": 0,
+                "explanation": "",
+                "options": [
+                    "21",
+                    "23",
+                    "15",
+                    "24"
+                ],
+                "questionText": "Down Syndrome is usually caused by an extra copy of which chromosome?"
+            },
+            {
+                "correctAnswerIndex": 2,
+                "explanation": "",
+                "options": [
+                    "Measles ",
+                    "AIDS",
+                    "Cholera",
+                    "Ringworm"
+                ],
+                "questionText": "What is an example of a bacterial pathogen?"
+            },
+            {
+                "correctAnswerIndex": 0,
+                "explanation": "",
+                "options": [
+                    "Hippocampus",
+                    "Cerebellum",
+                    "Amygdala",
+                    "Thalamus"
+                ],
+                "questionText": "What part of the brain takes its name from the Greek for seahorse?"
+            },
+            {
+                "correctAnswerIndex": 3,
+                "explanation": "",
+                "options": [
+                    "50 Feet / 15 Meters",
+                    "75 Feet / 23 Meters",
+                    "25 Feet / 7.5 Meters",
+                    "15 Feet / 5 Meters"
+                ],
+                "questionText": "At what depth should you make a decompression stop, or safety stop, on a typical scuba dive?"
+            },
+            {
+                "correctAnswerIndex": 2,
+                "explanation": "",
+                "options": [
+                    "Temblor",
+                    "Foreshock",
+                    "Drop-slide",
+                    "Strike-slip"
+                ],
+                "questionText": "Which of the following is NOT a word used to describe an earthquake?"
+            },
+            {
+                "correctAnswerIndex": 0,
+                "explanation": "",
+                "options": [
+                    "70%",
+                    "30%",
+                    "90%",
+                    "50%"
+                ],
+                "questionText": "About what percentage of the Earth s surface is water? "
+            },
+            {
+                "options": [
+                    "Microbiology",
+                    "Histology",
+                    "Anatomy",
+                    "Biochemistry"
+                ],
+                "questionText": "What is the study of the cells and tissues of plants and animals?",
+                "correctAnswerIndex": 1,
+                "explanation": ""
+            }
+        ],
+        "seedQuizzes": [
+            {
+                "id": "6abfa44148d60d2111d3bcc4",
+                "n": 3
+            },
+            {
+                "id": "6abfa44248d60d2111d3bcc8",
+                "n": 3
+            }
+        ],
+        "tokens": {
+            "admin": [
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhN2M0N2YyZTNmYmM2ZmRiYzkxYzdmMyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc5MDk0NDMyMSwiZXhwIjoxNzkxMDMwNzIxfQ.Rr5N0VAd5RqzAaSvtaOrp38Tu5PF5dkNa_Is8pv8_Go"
+            ],
+            "student": [
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNDNlNDhkNjBkMjExMWQzYmNiNiIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MzE4LCJleHAiOjE3OTEwMzA3MTh9.3ZLsPHnzQzerQLbhgET8iVT5EZrwmpEvffZIpnTLPH4",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNDNlNDhkNjBkMjExMWQzYmNiNyIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MzE4LCJleHAiOjE3OTEwMzA3MTh9.-fw_FDf2P4nSdxLyOWtw8lVaKGM94zBr6-wmYOPAa4s",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNDNlNDhkNjBkMjExMWQzYmNiOCIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MzE4LCJleHAiOjE3OTEwMzA3MTh9.IEON7nC8AOjszTpNGvBAWLfG5EldZlvGSLh-BoTgr5s",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNDNlNDhkNjBkMjExMWQzYmNiOSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MzE5LCJleHAiOjE3OTEwMzA3MTl9.EzEyH6mDcDwo7yKsYOnt8B7e80t_Vx4Lc4nsqBV700k",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNDNmNDhkNjBkMjExMWQzYmNiYSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MzE5LCJleHAiOjE3OTEwMzA3MTl9.eX1-1A70lAxa2ED4flivluv3n8XyaouEudNiKVrs9m8",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNDNmNDhkNjBkMjExMWQzYmNiYiIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MzE5LCJleHAiOjE3OTEwMzA3MTl9.UEj2Y4jhsyC5omH8OZqxRaZaSeo-qMye31K59rOsT4k",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNDNmNDhkNjBkMjExMWQzYmNiYyIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MzE5LCJleHAiOjE3OTEwMzA3MTl9.VUJ6AxoYZy0ddXDD7WBgHNDj1Snb7AWwbPPvDf2_cew",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNDNmNDhkNjBkMjExMWQzYmNiZCIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MzIwLCJleHAiOjE3OTEwMzA3MjB9.-9LjFkdmD5Qd9jjzhUBmXsFGJsb3GL8cKYUUNy-DAaY",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNDQwNDhkNjBkMjExMWQzYmNiZSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MzIwLCJleHAiOjE3OTEwMzA3MjB9.691SnQTYlIikYQHJ6gMTVd7u4qxHtKsyeqQB7_0QgoE",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNDQwNDhkNjBkMjExMWQzYmNiZiIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0MzIwLCJleHAiOjE3OTEwMzA3MjB9.hl8fVHjVMvbE89WpWatOhD6p1VJSAztP2FrFc21Ud78"
+            ],
+            "teacher": [
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNDQwNDhkNjBkMjExMWQzYmNjMCIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQ0MzIwLCJleHAiOjE3OTEwMzA3MjB9.QHMPs_kO1XJklKoo1Q5oVYNsasSLaduomPQh_2enBoE",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNDQwNDhkNjBkMjExMWQzYmNjMSIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQ0MzIxLCJleHAiOjE3OTEwMzA3MjF9.rcY6vvAeQWeTcPRlXh8D874uKTYfoPTc3b8yGm65WLQ",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNDQxNDhkNjBkMjExMWQzYmNjMiIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQ0MzIxLCJleHAiOjE3OTEwMzA3MjF9.FsSABbuZJY8VWpRqa6sP7JL1oUccNAqRJ5mrTy_AYLw",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNDQxNDhkNjBkMjExMWQzYmNjMyIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQ0MzIxLCJleHAiOjE3OTEwMzA3MjF9.1ncGq3WD4S7bwmeyl9gVk9FB62HMGOYIWtInSu6o6jM"
+            ]
+        }
+    },
+    "root_group": {
+        "groups": {},
+        "checks": {
+                "admin /api/admin/stats": {
+                    "name": "admin /api/admin/stats",
+                    "path": "::admin /api/admin/stats",
+                    "id": "30f2a613388b50c6023671763860c597",
+                    "passes": 12,
+                    "fails": 0
+                },
+                "teacher /api/tasks": {
+                    "name": "teacher /api/tasks",
+                    "path": "::teacher /api/tasks",
+                    "id": "13cac566c8ba19f1aae50b83810c23a7",
+                    "passes": 402,
+                    "fails": 0
+                },
+                "student /api/tasks": {
+                    "id": "ee1eafbe4e85f43400f483337b4f7416",
+                    "passes": 661,
+                    "fails": 0,
+                    "name": "student /api/tasks",
+                    "path": "::student /api/tasks"
+                },
+                "student /api/quizzes": {
+                    "name": "student /api/quizzes",
+                    "path": "::student /api/quizzes",
+                    "id": "3ad2603ac7adff2dd61a82915c385298",
+                    "passes": 661,
+                    "fails": 0
+                },
+                "teacher /api/users/students": {
+                    "name": "teacher /api/users/students",
+                    "path": "::teacher /api/users/students",
+                    "id": "c064308b196d1ef9f332135cac5a45f8",
+                    "passes": 402,
+                    "fails": 0
+                },
+                "teacher /api/users/stats": {
+                    "name": "teacher /api/users/stats",
+                    "path": "::teacher /api/users/stats",
+                    "id": "fb989f18a5fe77243a77d8efdf4d023e",
+                    "passes": 402,
+                    "fails": 0
+                },
+                "student /api/quizzes/attempts/me": {
+                    "path": "::student /api/quizzes/attempts/me",
+                    "id": "80c1b2288b315f35a87ded0dd4de9c2c",
+                    "passes": 661,
+                    "fails": 0,
+                    "name": "student /api/quizzes/attempts/me"
+                },
+                "admin /api/admin/users": {
+                    "name": "admin /api/admin/users",
+                    "path": "::admin /api/admin/users",
+                    "id": "d39b74bbd090dc494766bb135483a537",
+                    "passes": 12,
+                    "fails": 0
+                },
+                "student /api/users/leaderboard": {
+                    "fails": 0,
+                    "name": "student /api/users/leaderboard",
+                    "path": "::student /api/users/leaderboard",
+                    "id": "477100c5d03af898125852ee8e39e87b",
+                    "passes": 661
+                },
+                "admin /api/admin/users/pending": {
+                    "name": "admin /api/admin/users/pending",
+                    "path": "::admin /api/admin/users/pending",
+                    "id": "f85c974ae9c01c44ea31812a5cb7d0c0",
+                    "passes": 12,
+                    "fails": 0
+                },
+                "student open quiz": {
+                    "id": "a8062f26e6059867d9d0e5734d98e194",
+                    "passes": 661,
+                    "fails": 0,
+                    "name": "student open quiz",
+                    "path": "::student open quiz"
+                },
+                "student submit quiz": {
+                    "name": "student submit quiz",
+                    "path": "::student submit quiz",
+                    "id": "4f8d5df5541ef127796706683c1bb18e",
+                    "passes": 661,
+                    "fails": 0
+                },
+                "admin create quiz": {
+                    "name": "admin create quiz",
+                    "path": "::admin create quiz",
+                    "id": "182f4e9380c5a01774b79eb2a7a50689",
+                    "passes": 12,
+                    "fails": 0
+                },
+                "admin delete quiz": {
+                    "name": "admin delete quiz",
+                    "path": "::admin delete quiz",
+                    "id": "7702b016cee9c5e23904d3f674c9fd09",
+                    "passes": 12,
+                    "fails": 0
+                }
+            },
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "metrics": {
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 5267,
+            "thresholds": {
+                "rate<0.05": false
+            },
+            "value": 0
+        },
+        "http_req_connecting": {
+            "avg": 0.12103106132523264,
+            "min": 0,
+            "med": 0,
+            "max": 308.7533,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "http_req_duration{expected_response:true}": {
+            "max": 4992.4577,
+            "p(90)": 2998.43682,
+            "p(95)": 3037.03163,
+            "avg": 1793.6907355420528,
+            "min": 49.0342,
+            "med": 1967.4864
+        },
+        "http_req_sending": {
+            "med": 0,
+            "max": 8.4954,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.011262540345547745,
+            "min": 0
+        },
+        "iterations": {
+            "count": 1075,
+            "rate": 9.006824175756844
+        },
+        "http_req_tls_handshaking": {
+            "avg": 0.10035699639263337,
+            "min": 0,
+            "med": 0,
+            "max": 328.5617,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "data_received": {
+            "count": 14071366,
+            "rate": 117896.1111392771
+        },
+        "http_req_duration": {
+            "med": 1967.4864,
+            "max": 4992.4577,
+            "p(90)": 2998.43682,
+            "p(95)": 3037.03163,
+            "avg": 1793.6907355420528,
+            "min": 49.0342
+        },
+        "http_reqs": {
+            "count": 5267,
+            "rate": 44.12924924066167
+        },
+        "data_sent": {
+            "count": 1834935,
+            "rate": 15373.894808318497
+        },
+        "http_req_blocked": {
+            "avg": 0.28898944370609425,
+            "min": 0,
+            "med": 0,
+            "max": 950.06,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "http_req_receiving": {
+            "max": 25.3254,
+            "p(90)": 1.5055800000000008,
+            "p(95)": 2.4982199999999954,
+            "avg": 0.5732165179419021,
+            "min": 0,
+            "med": 0
+        },
+        "http_req_duration{flow:api}": {
+            "avg": 1804.635828058103,
+            "min": 49.0342,
+            "med": 1969.2466,
+            "max": 4992.4577,
+            "p(90)": 2998.93106,
+            "p(95)": 3037.533195,
+            "thresholds": {
+                "p(95)<1500": true
+            }
+        },
+        "vus_max": {
+            "value": 129,
+            "min": 129,
+            "max": 129
+        },
+        "http_req_waiting": {
+            "p(90)": 2997.7641399999998,
+            "p(95)": 3037.03163,
+            "avg": 1793.1062564837705,
+            "min": 48.7797,
+            "med": 1967.2564,
+            "max": 4992.4577
+        },
+        "iteration_duration": {
+            "med": 10040.6974,
+            "max": 18946.3307,
+            "p(90)": 16017.64092,
+            "p(95)": 16970.33553,
+            "avg": 10765.415440186041,
+            "min": 1265.1481
+        },
+        "vus": {
+            "value": 0,
+            "min": 0,
+            "max": 129
+        },
+        "checks": {
+            "passes": 5232,
+            "fails": 0,
+            "value": 1
+        }
+    }
+}

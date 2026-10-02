@@ -1,0 +1,391 @@
+{
+    "metrics": {
+        "data_received": {
+            "count": 14289476,
+            "rate": 114707.76074782698
+        },
+        "http_req_sending": {
+            "avg": 0.008146171210279557,
+            "min": 0,
+            "med": 0,
+            "max": 1.5095,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "checks": {
+            "passes": 5724,
+            "fails": 0,
+            "value": 1
+        },
+        "http_req_receiving": {
+            "avg": 0.647205139781212,
+            "min": 0,
+            "med": 0,
+            "max": 19.0366,
+            "p(90)": 1.6590199999999995,
+            "p(95)": 2.8433899999999905
+        },
+        "vus_max": {
+            "value": 257,
+            "min": 257,
+            "max": 257
+        },
+        "data_sent": {
+            "count": 2001372,
+            "rate": 16065.872572472215
+        },
+        "http_reqs": {
+            "count": 5759,
+            "rate": 46.22996631554128
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 5759,
+            "thresholds": {
+                "rate<0.05": false
+            },
+            "value": 0
+        },
+        "vus": {
+            "value": 3,
+            "min": 0,
+            "max": 257
+        },
+        "http_req_waiting": {
+            "avg": 3846.0734443827064,
+            "min": 51.2344,
+            "med": 3948.1884,
+            "max": 8232.2612,
+            "p(90)": 6021.24358,
+            "p(95)": 6980.960569999999
+        },
+        "iteration_duration": {
+            "med": 18983.090799999998,
+            "max": 34066.9185,
+            "p(90)": 31076.00683,
+            "p(95)": 32053.091755,
+            "avg": 20737.996581049094,
+            "min": 1250.2975
+        },
+        "http_req_duration{flow:api}": {
+            "p(90)": 6023.342799999999,
+            "p(95)": 6982.644619999999,
+            "avg": 3869.4138745457744,
+            "min": 51.2344,
+            "med": 3950.6979499999998,
+            "max": 8232.5811,
+            "thresholds": {
+                "p(95)<1500": true
+            }
+        },
+        "iterations": {
+            "count": 1182,
+            "rate": 9.488421633090779
+        },
+        "http_req_duration{expected_response:true}": {
+            "avg": 3846.7287956936993,
+            "min": 51.2344,
+            "med": 3949.0154,
+            "max": 8232.5811,
+            "p(90)": 6022.09956,
+            "p(95)": 6982.01184
+        },
+        "http_req_duration": {
+            "p(90)": 6022.09956,
+            "p(95)": 6982.01184,
+            "avg": 3846.7287956936993,
+            "min": 51.2344,
+            "med": 3949.0154,
+            "max": 8232.5811
+        },
+        "http_req_connecting": {
+            "p(95)": 0,
+            "avg": 0.12640701510678926,
+            "min": 0,
+            "med": 0,
+            "max": 299.6616,
+            "p(90)": 0
+        },
+        "http_req_tls_handshaking": {
+            "med": 0,
+            "max": 307.9917,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.07903231463795797,
+            "min": 0
+        },
+        "http_req_blocked": {
+            "max": 945.3419,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.2702252995311684,
+            "min": 0,
+            "med": 0
+        }
+    },
+    "setup_data": {
+        "prompts": [
+            "What is the lowest layer of the Earth s atmosphere named?",
+            "What does the letter  S  stand for in  NASA ?",
+            "How many hearts does an octopus have?",
+            "What does the term  isolation  refer to in microbiology?",
+            "Which type of rock is created by intense heat AND pressure?",
+            "What is the primary addictive substance found in tobacco?",
+            "Which constellation contains the center of the Milky Way?",
+            "Which of the following is considered classical conditioning?",
+            "Who is the chemical element Curium named after?",
+            "What nucleotide pairs with guanine?"
+        ],
+        "quizQs": [
+            {
+                "correctAnswerIndex": 1,
+                "explanation": "",
+                "options": [
+                    "Thermosphere",
+                    "Troposphere",
+                    "Mesosphere",
+                    "Stratosphere"
+                ],
+                "questionText": "What is the lowest layer of the Earth s atmosphere named?"
+            },
+            {
+                "correctAnswerIndex": 3,
+                "explanation": "",
+                "options": [
+                    "Star",
+                    "Science",
+                    "Society",
+                    "Space"
+                ],
+                "questionText": "What does the letter  S  stand for in  NASA ?"
+            },
+            {
+                "correctAnswerIndex": 3,
+                "explanation": "",
+                "options": [
+                    "Four",
+                    "Two",
+                    "One",
+                    "Three"
+                ],
+                "questionText": "How many hearts does an octopus have?"
+            },
+            {
+                "correctAnswerIndex": 0,
+                "explanation": "",
+                "options": [
+                    "The separation of a strain from a natural, mixed population of living microbes",
+                    "The nitrogen level in soil",
+                    "Testing effects of certain microorganisms in an isolated enviroments, such as caves",
+                    "A lack of nutrition in microenviroments"
+                ],
+                "questionText": "What does the term  isolation  refer to in microbiology?"
+            },
+            {
+                "correctAnswerIndex": 0,
+                "explanation": "",
+                "options": [
+                    "Metamorphic",
+                    "Diamond",
+                    "Sedimentary",
+                    "Igneous"
+                ],
+                "questionText": "Which type of rock is created by intense heat AND pressure?"
+            },
+            {
+                "questionText": "What is the primary addictive substance found in tobacco?",
+                "correctAnswerIndex": 2,
+                "explanation": "",
+                "options": [
+                    "Glaucine",
+                    "Cathinone",
+                    "Nicotine",
+                    "Ephedrine"
+                ]
+            },
+            {
+                "correctAnswerIndex": 3,
+                "explanation": "",
+                "options": [
+                    "Scorpius",
+                    "Capricornus",
+                    "Ophiuchus",
+                    "Sagittarius"
+                ],
+                "questionText": "Which constellation contains the center of the Milky Way?"
+            },
+            {
+                "correctAnswerIndex": 1,
+                "explanation": "",
+                "options": [
+                    "Skinner box experiment",
+                    "Pavlov s dog experiments",
+                    "Harlow s monkey experiments",
+                    "Schr dinger s cat experiment"
+                ],
+                "questionText": "Which of the following is considered classical conditioning?"
+            },
+            {
+                "correctAnswerIndex": 2,
+                "explanation": "",
+                "options": [
+                    "The Curiosity Rover",
+                    "Stephen Curry",
+                    "Marie   Pierre Curie",
+                    "Curious George"
+                ],
+                "questionText": "Who is the chemical element Curium named after?"
+            },
+            {
+                "correctAnswerIndex": 1,
+                "explanation": "",
+                "options": [
+                    "Thymine",
+                    "Cytosine",
+                    "Uracil",
+                    "Adenine"
+                ],
+                "questionText": "What nucleotide pairs with guanine?"
+            }
+        ],
+        "seedQuizzes": [
+            {
+                "id": "6abfa4ce48d60d2111d3cbaf",
+                "n": 3
+            },
+            {
+                "id": "6abfa4ce48d60d2111d3cbb3",
+                "n": 3
+            }
+        ],
+        "tokens": {
+            "admin": [
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhN2M0N2YyZTNmYmM2ZmRiYzkxYzdmMyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc5MDk0NDQ2MiwiZXhwIjoxNzkxMDMwODYyfQ.YjmFLq4ycvGrtcQ162TRnjUKXevhO5oR-0k5uQGCXts"
+            ],
+            "student": [
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNGNhNDhkNjBkMjExMWQzY2JhMSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0NDU4LCJleHAiOjE3OTEwMzA4NTh9.fqvutNRDU5FoCu_-gYxcvqGYCVUiGHOmTkGyHY_fWQc",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNGNhNDhkNjBkMjExMWQzY2JhMiIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0NDU4LCJleHAiOjE3OTEwMzA4NTh9.DzbC1XkT0zrnfjKGNjzAuhGK84OguKA0PwUjZi6xCGw",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNGNhNDhkNjBkMjExMWQzY2JhMyIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0NDU4LCJleHAiOjE3OTEwMzA4NTh9.Nf9Vxoi-PqhRZ0fKUKBb9rjj64FvIoDQJvVZqMfV5dU",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNGNiNDhkNjBkMjExMWQzY2JhNCIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0NDU5LCJleHAiOjE3OTEwMzA4NTl9.eV1NLSOCIdgWV3Nl991VAT5cWhGKh9h-1a3YTJoVpAA",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNGNiNDhkNjBkMjExMWQzY2JhNSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0NDU5LCJleHAiOjE3OTEwMzA4NTl9.i5CD1q8JoME7NHfRNJcmEGTJa1xo5ccAbWN1xWqDk90",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNGNiNDhkNjBkMjExMWQzY2JhNiIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0NDU5LCJleHAiOjE3OTEwMzA4NTl9.RHhMl4DMpaKFM82o27Jv4W-yCMIATczvRXigfUvPOdM",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNGNiNDhkNjBkMjExMWQzY2JhNyIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0NDU5LCJleHAiOjE3OTEwMzA4NTl9.69vrKo20m79MdjVuKInNNc2gHSnM-bO86CqVK1fatF0",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNGNjNDhkNjBkMjExMWQzY2JhOCIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0NDYwLCJleHAiOjE3OTEwMzA4NjB9.76T4Cd3ounk1wyS3R6wwwnr4iyPDLKQb9ETEHxAliQY",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNGNjNDhkNjBkMjExMWQzY2JhOSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0NDYwLCJleHAiOjE3OTEwMzA4NjB9.2Eo01BxaDMaYoPJfGYWBVWK2GsVx2OAMFY-Jjc22VzU",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNGNjNDhkNjBkMjExMWQzY2JhYSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQ0NDYwLCJleHAiOjE3OTEwMzA4NjB9.zJ5hjSpQr-HPMBHvKAn-NQntDUvtYN7x71VobA48Eik"
+            ],
+            "teacher": [
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNGNjNDhkNjBkMjExMWQzY2JhYiIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQ0NDYwLCJleHAiOjE3OTEwMzA4NjB9.W5QCV5y7hBKmnA6lg18KIT5qkbMb9nAD4l9xD0W2tAY",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNGNkNDhkNjBkMjExMWQzY2JhYyIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQ0NDYxLCJleHAiOjE3OTEwMzA4NjF9.6JaWS58dALmWYDpYxfTXlEa0wRj_4fOm6I0X5zyO5rM",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNGNkNDhkNjBkMjExMWQzY2JhZCIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQ0NDYxLCJleHAiOjE3OTEwMzA4NjF9.DPcMFxCem2rjoMoy790LJ2hn2drax4gIizsvpAZcfKQ",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhNGNkNDhkNjBkMjExMWQzY2JhZSIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQ0NDYxLCJleHAiOjE3OTEwMzA4NjF9.VPCOxcz8l3a-4mONeO2u7s7AE2RIACp1ya6BhtwCjF0"
+            ]
+        }
+    },
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+                "admin /api/admin/stats": {
+                    "path": "::admin /api/admin/stats",
+                    "id": "30f2a613388b50c6023671763860c597",
+                    "passes": 6,
+                    "fails": 0,
+                    "name": "admin /api/admin/stats"
+                },
+                "student /api/tasks": {
+                    "passes": 722,
+                    "fails": 0,
+                    "name": "student /api/tasks",
+                    "path": "::student /api/tasks",
+                    "id": "ee1eafbe4e85f43400f483337b4f7416"
+                },
+                "teacher /api/tasks": {
+                    "name": "teacher /api/tasks",
+                    "path": "::teacher /api/tasks",
+                    "id": "13cac566c8ba19f1aae50b83810c23a7",
+                    "passes": 454,
+                    "fails": 0
+                },
+                "student /api/quizzes": {
+                    "name": "student /api/quizzes",
+                    "path": "::student /api/quizzes",
+                    "id": "3ad2603ac7adff2dd61a82915c385298",
+                    "passes": 722,
+                    "fails": 0
+                },
+                "teacher /api/users/students": {
+                    "name": "teacher /api/users/students",
+                    "path": "::teacher /api/users/students",
+                    "id": "c064308b196d1ef9f332135cac5a45f8",
+                    "passes": 454,
+                    "fails": 0
+                },
+                "student /api/quizzes/attempts/me": {
+                    "id": "80c1b2288b315f35a87ded0dd4de9c2c",
+                    "passes": 722,
+                    "fails": 0,
+                    "name": "student /api/quizzes/attempts/me",
+                    "path": "::student /api/quizzes/attempts/me"
+                },
+                "teacher /api/users/stats": {
+                    "id": "fb989f18a5fe77243a77d8efdf4d023e",
+                    "passes": 454,
+                    "fails": 0,
+                    "name": "teacher /api/users/stats",
+                    "path": "::teacher /api/users/stats"
+                },
+                "student /api/users/leaderboard": {
+                    "name": "student /api/users/leaderboard",
+                    "path": "::student /api/users/leaderboard",
+                    "id": "477100c5d03af898125852ee8e39e87b",
+                    "passes": 722,
+                    "fails": 0
+                },
+                "admin /api/admin/users": {
+                    "name": "admin /api/admin/users",
+                    "path": "::admin /api/admin/users",
+                    "id": "d39b74bbd090dc494766bb135483a537",
+                    "passes": 6,
+                    "fails": 0
+                },
+                "student open quiz": {
+                    "passes": 722,
+                    "fails": 0,
+                    "name": "student open quiz",
+                    "path": "::student open quiz",
+                    "id": "a8062f26e6059867d9d0e5734d98e194"
+                },
+                "student submit quiz": {
+                    "passes": 722,
+                    "fails": 0,
+                    "name": "student submit quiz",
+                    "path": "::student submit quiz",
+                    "id": "4f8d5df5541ef127796706683c1bb18e"
+                },
+                "admin /api/admin/users/pending": {
+                    "name": "admin /api/admin/users/pending",
+                    "path": "::admin /api/admin/users/pending",
+                    "id": "f85c974ae9c01c44ea31812a5cb7d0c0",
+                    "passes": 6,
+                    "fails": 0
+                },
+                "admin create quiz": {
+                    "name": "admin create quiz",
+                    "path": "::admin create quiz",
+                    "id": "182f4e9380c5a01774b79eb2a7a50689",
+                    "passes": 6,
+                    "fails": 0
+                },
+                "admin delete quiz": {
+                    "name": "admin delete quiz",
+                    "path": "::admin delete quiz",
+                    "id": "7702b016cee9c5e23904d3f674c9fd09",
+                    "passes": 6,
+                    "fails": 0
+                }
+            }
+    }
+}

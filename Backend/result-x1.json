@@ -1,0 +1,391 @@
+{
+    "setup_data": {
+        "prompts": [
+            "What does DNA stand for?",
+            "What is the largest living organism currently known to man?",
+            "The humerus, paired radius, and ulna come together to form what joint?",
+            "What is the thin, outermost layer of the Earth?",
+            "The core of the Sun can reach which temperature?",
+            "Where did the dog breed  Chihuahua  originate?",
+            "The word  science  stems from the word  scire  meaning what?",
+            "Which of the following men does not have a chemical element named after him?",
+            "Which of these choices is not one of the phases of mitosis?",
+            "Approximately how long is a year on Uranus?"
+        ],
+        "quizQs": [
+            {
+                "correctAnswerIndex": 3,
+                "explanation": "",
+                "options": [
+                    "Deoxyribogenetic Atoms",
+                    "Deoxyribogenetic Acid",
+                    "Detoxic Acid",
+                    "Deoxyribonucleic Acid"
+                ],
+                "questionText": "What does DNA stand for?"
+            },
+            {
+                "correctAnswerIndex": 0,
+                "explanation": "",
+                "options": [
+                    "Honey Fungus",
+                    "The Coral Reef",
+                    "Redwood Tree",
+                    "Blue Whale"
+                ],
+                "questionText": "What is the largest living organism currently known to man?"
+            },
+            {
+                "correctAnswerIndex": 3,
+                "explanation": "",
+                "options": [
+                    "Ankle",
+                    "Knee",
+                    "Sholder",
+                    "Elbow"
+                ],
+                "questionText": "The humerus, paired radius, and ulna come together to form what joint?"
+            },
+            {
+                "explanation": "",
+                "options": [
+                    "Mantle",
+                    "Exosphere",
+                    "Outer Core",
+                    "Crust"
+                ],
+                "questionText": "What is the thin, outermost layer of the Earth?",
+                "correctAnswerIndex": 3
+            },
+            {
+                "correctAnswerIndex": 2,
+                "explanation": "",
+                "options": [
+                    "938,000  F (521093.3  C)",
+                    "8  Billion F ( 4.4 Billion C)",
+                    "27  Million F (15  Million C)",
+                    "Absolute Zero (Both F and C)"
+                ],
+                "questionText": "The core of the Sun can reach which temperature?"
+            },
+            {
+                "correctAnswerIndex": 2,
+                "explanation": "",
+                "options": [
+                    "Russia",
+                    "Spain",
+                    "Mexico",
+                    "France"
+                ],
+                "questionText": "Where did the dog breed  Chihuahua  originate?"
+            },
+            {
+                "correctAnswerIndex": 3,
+                "explanation": "",
+                "options": [
+                    "To measure",
+                    "To count",
+                    "To live",
+                    "To know"
+                ],
+                "questionText": "The word  science  stems from the word  scire  meaning what?"
+            },
+            {
+                "questionText": "Which of the following men does not have a chemical element named after him?",
+                "correctAnswerIndex": 2,
+                "explanation": "",
+                "options": [
+                    "Albert Einstein",
+                    "Niels Bohr",
+                    "Sir Isaac Newton",
+                    "Enrico Fermi"
+                ]
+            },
+            {
+                "correctAnswerIndex": 3,
+                "explanation": "",
+                "options": [
+                    "Telophase",
+                    "Metaphase",
+                    "Anaphase",
+                    "Diplophase"
+                ],
+                "questionText": "Which of these choices is not one of the phases of mitosis?"
+            },
+            {
+                "questionText": "Approximately how long is a year on Uranus?",
+                "correctAnswerIndex": 0,
+                "explanation": "",
+                "options": [
+                    "84 Earth years",
+                    "109 Earth years",
+                    "62 Earth years",
+                    "47 Earth years"
+                ]
+            }
+        ],
+        "seedQuizzes": [
+            {
+                "n": 3,
+                "id": "6abfa29f48d60d2111d39bad"
+            },
+            {
+                "id": "6abfa29f48d60d2111d39bb1",
+                "n": 3
+            }
+        ],
+        "tokens": {
+            "student": [
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMjljNDhkNjBkMjExMWQzOWI5ZiIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQzOTAwLCJleHAiOjE3OTEwMzAzMDB9.CEyoi8TLLL_Mxk4zBPduKPrrjHEyJUPTXeDaj0H51sk",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMjljNDhkNjBkMjExMWQzOWJhMCIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQzOTAwLCJleHAiOjE3OTEwMzAzMDB9.fvG44842EKp4GvyfQApgZEJKXTg9PFyQ2uZpN4ascUY",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMjljNDhkNjBkMjExMWQzOWJhMSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQzOTAxLCJleHAiOjE3OTEwMzAzMDF9._tMAy61QVN0pSDY7REdEg0KJ2dinNsHXwCxSGsThjlY",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMjlkNDhkNjBkMjExMWQzOWJhMiIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQzOTAxLCJleHAiOjE3OTEwMzAzMDF9.YRMOICs4894v2kUzzvNJven6ea97MOVrehMhdpGuDUI",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMjlkNDhkNjBkMjExMWQzOWJhMyIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQzOTAxLCJleHAiOjE3OTEwMzAzMDF9.nQNX52SVftojCBxIyXDENY5FPvvEu-CqZ9NhcMhO6iw",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMjlkNDhkNjBkMjExMWQzOWJhNCIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQzOTAxLCJleHAiOjE3OTEwMzAzMDF9.nmUFnrZiZWFxurq-62ZbnUQ3fGVYsHqQniERwEdOKow",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMjlkNDhkNjBkMjExMWQzOWJhNSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQzOTAxLCJleHAiOjE3OTEwMzAzMDF9.jT734Gfm0PWH_PO_r2nuuFvv90WiRwfCxSTbDziGB0M",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMjllNDhkNjBkMjExMWQzOWJhNiIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQzOTAyLCJleHAiOjE3OTEwMzAzMDJ9.xvp8vGiu7-aTHXWItZaJ9XF2VwNiusFeoyJRPAVWf68",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMjllNDhkNjBkMjExMWQzOWJhNyIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQzOTAyLCJleHAiOjE3OTEwMzAzMDJ9.kGYWZkOJVayPEHq5iwGr7sI3PWgcZ8XJELA4pb70OKQ",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMjllNDhkNjBkMjExMWQzOWJhOCIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkwOTQzOTAyLCJleHAiOjE3OTEwMzAzMDJ9.0LQIQ1eqH-yITpyK8DW9X5tR1wkKLIILJlGSLB1Ejuc"
+            ],
+            "teacher": [
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMjllNDhkNjBkMjExMWQzOWJhOSIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQzOTAyLCJleHAiOjE3OTEwMzAzMDJ9.yYa9RQrj9x_ZQQGb5zXMB1xa2a5ZdfK3HJ6p0MyB4gU",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMjllNDhkNjBkMjExMWQzOWJhYSIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQzOTAzLCJleHAiOjE3OTEwMzAzMDN9.RIZrjXwmg9BAUdLORE4zlp9GnpqbL73Xr_ubcvsJ0j4",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMjlmNDhkNjBkMjExMWQzOWJhYiIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQzOTAzLCJleHAiOjE3OTEwMzAzMDN9.Tb2zA7p_3IQSQKXoZQt0ofSgJwwFNIcl4_9Bps90E_Q",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYmZhMjlmNDhkNjBkMjExMWQzOWJhYyIsInJvbGUiOiJ0ZWFjaGVyIiwiaWF0IjoxNzkwOTQzOTAzLCJleHAiOjE3OTEwMzAzMDN9.tAzghLYmvDKAVPp_-4dbOUwhRPH6Xx0wAdiH1p45aLU"
+            ],
+            "admin": [
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhN2M0N2YyZTNmYmM2ZmRiYzkxYzdmMyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc5MDk0MzkwMywiZXhwIjoxNzkxMDMwMzAzfQ.EZbztfFgJB9qR2-ZGKNg2sp04qgGNBSZeLVk6lUPrBg"
+            ]
+        }
+    },
+    "root_group": {
+        "checks": {
+            "admin /api/admin/stats": {
+                "id": "30f2a613388b50c6023671763860c597",
+                "passes": 41,
+                "fails": 0,
+                "name": "admin /api/admin/stats",
+                "path": "::admin /api/admin/stats"
+            },
+            "student /api/tasks": {
+                "fails": 0,
+                "name": "student /api/tasks",
+                "path": "::student /api/tasks",
+                "id": "ee1eafbe4e85f43400f483337b4f7416",
+                "passes": 388
+            },
+            "teacher /api/tasks": {
+                "name": "teacher /api/tasks",
+                "path": "::teacher /api/tasks",
+                "id": "13cac566c8ba19f1aae50b83810c23a7",
+                "passes": 150,
+                "fails": 0
+            },
+            "teacher /api/users/students": {
+                "name": "teacher /api/users/students",
+                "path": "::teacher /api/users/students",
+                "id": "c064308b196d1ef9f332135cac5a45f8",
+                "passes": 150,
+                "fails": 0
+            },
+            "student /api/quizzes": {
+                "path": "::student /api/quizzes",
+                "id": "3ad2603ac7adff2dd61a82915c385298",
+                "passes": 388,
+                "fails": 0,
+                "name": "student /api/quizzes"
+            },
+            "admin /api/admin/users": {
+                "passes": 41,
+                "fails": 0,
+                "name": "admin /api/admin/users",
+                "path": "::admin /api/admin/users",
+                "id": "d39b74bbd090dc494766bb135483a537"
+            },
+            "teacher /api/users/stats": {
+                "fails": 0,
+                "name": "teacher /api/users/stats",
+                "path": "::teacher /api/users/stats",
+                "id": "fb989f18a5fe77243a77d8efdf4d023e",
+                "passes": 150
+            },
+            "student /api/quizzes/attempts/me": {
+                "name": "student /api/quizzes/attempts/me",
+                "path": "::student /api/quizzes/attempts/me",
+                "id": "80c1b2288b315f35a87ded0dd4de9c2c",
+                "passes": 388,
+                "fails": 0
+            },
+            "student /api/users/leaderboard": {
+                "name": "student /api/users/leaderboard",
+                "path": "::student /api/users/leaderboard",
+                "id": "477100c5d03af898125852ee8e39e87b",
+                "passes": 388,
+                "fails": 0
+            },
+            "admin /api/admin/users/pending": {
+                "name": "admin /api/admin/users/pending",
+                "path": "::admin /api/admin/users/pending",
+                "id": "f85c974ae9c01c44ea31812a5cb7d0c0",
+                "passes": 41,
+                "fails": 0
+            },
+            "admin create quiz": {
+                "name": "admin create quiz",
+                "path": "::admin create quiz",
+                "id": "182f4e9380c5a01774b79eb2a7a50689",
+                "passes": 41,
+                "fails": 0
+            },
+            "admin delete quiz": {
+                "fails": 0,
+                "name": "admin delete quiz",
+                "path": "::admin delete quiz",
+                "id": "7702b016cee9c5e23904d3f674c9fd09",
+                "passes": 41
+            },
+            "student open quiz": {
+                "fails": 0,
+                "name": "student open quiz",
+                "path": "::student open quiz",
+                "id": "a8062f26e6059867d9d0e5734d98e194",
+                "passes": 388
+            },
+            "student submit quiz": {
+                "id": "4f8d5df5541ef127796706683c1bb18e",
+                "passes": 388,
+                "fails": 0,
+                "name": "student submit quiz",
+                "path": "::student submit quiz"
+            }
+        },
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {}
+    },
+    "metrics": {
+        "data_received": {
+            "count": 9393432,
+            "rate": 79698.2092088733
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 3018,
+            "thresholds": {
+                "rate<0.05": false
+            },
+            "value": 0
+        },
+        "http_req_connecting": {
+            "avg": 0.16434675281643477,
+            "min": 0,
+            "med": 0,
+            "max": 295.3036,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "http_req_tls_handshaking": {
+            "avg": 0.16366835652750167,
+            "min": 0,
+            "med": 0,
+            "max": 303.5878,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "http_reqs": {
+            "count": 3018,
+            "rate": 25.606103859843735
+        },
+        "http_req_blocked": {
+            "p(95)": 0,
+            "avg": 0.4485492047713717,
+            "min": 0,
+            "med": 0,
+            "max": 908.3532,
+            "p(90)": 0
+        },
+        "vus": {
+            "min": 0,
+            "max": 17,
+            "value": 1
+        },
+        "http_req_waiting": {
+            "max": 670.0568,
+            "p(90)": 185.20692000000005,
+            "p(95)": 318.0141350000002,
+            "avg": 119.60482584493072,
+            "min": 43.7449,
+            "med": 93.60485
+        },
+        "http_req_duration{flow:api}": {
+            "med": 93.8255,
+            "max": 670.0568,
+            "p(90)": 186.7578800000001,
+            "p(95)": 319.69330000000014,
+            "avg": 120.57996634260839,
+            "min": 43.7449,
+            "thresholds": {
+                "p(95)<1500": false
+            }
+        },
+        "iterations": {
+            "rate": 4.912503026789106,
+            "count": 579
+        },
+        "http_req_duration{expected_response:true}": {
+            "p(90)": 186.43858000000012,
+            "p(95)": 319.852825,
+            "avg": 120.67103412856221,
+            "min": 43.7449,
+            "med": 94.30160000000001,
+            "max": 670.0568
+        },
+        "http_req_sending": {
+            "avg": 0.02506358515573228,
+            "min": 0,
+            "med": 0,
+            "max": 13.075,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "iteration_duration": {
+            "min": 1205.8791,
+            "med": 2602.8654,
+            "max": 4317.0477,
+            "p(90)": 3646.976440000001,
+            "p(95)": 3887.6020200000003,
+            "avg": 2612.8119079447342
+        },
+        "data_sent": {
+            "count": 1078093,
+            "rate": 9147.038213575384
+        },
+        "http_req_duration": {
+            "p(90)": 186.43858000000012,
+            "p(95)": 319.852825,
+            "avg": 120.67103412856221,
+            "min": 43.7449,
+            "med": 94.30160000000001,
+            "max": 670.0568
+        },
+        "vus_max": {
+            "max": 17,
+            "value": 17,
+            "min": 17
+        },
+        "checks": {
+            "passes": 2983,
+            "fails": 0,
+            "value": 1
+        },
+        "http_req_receiving": {
+            "avg": 1.0411446984758097,
+            "min": 0,
+            "med": 0,
+            "max": 26.5272,
+            "p(90)": 3.022540000000003,
+            "p(95)": 6.420035000000002
+        }
+    }
+}
